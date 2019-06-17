@@ -8,7 +8,7 @@ navbar:
     - text: "Lecture notes"
       menu:
         - text: "R lecture notes"
-          href: "slides-c32.pdf"
+          href: "slides_c32.pdf"
         - text: "SAS lecture notes"
           href: "slides-sas.pdf"
     - text: "Quercus"
