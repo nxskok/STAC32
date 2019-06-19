@@ -1,0 +1,7 @@
+---
+title: "SAS code"
+---
+
+I don't have a good way to do this yet (working on it), but for now, go [here](https://github.com/nxskok/notes/tree/master/SAS), look in the appropriate one of the `.Rnw` files (the file name should be guessable) and look for the SAS code inside a \begin{Datastep}-\end{Datastep} or \begin{SAScode}-\end{SAScode} block. Then copy and paste it to SAS Studio.
+
+Yes, I know, not at all elegant.
