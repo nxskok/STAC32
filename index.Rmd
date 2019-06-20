@@ -15,5 +15,5 @@ In this course, we learn R (and later SAS), and how to use this software for dat
 
 ## News
 
-- 2019-05-28 11:30: a distant hello from the past.
 - 2019-06-17 16:30: lecture notes up.
+- 2019-05-28 11:30: a distant hello from the past.
