@@ -7,7 +7,7 @@ title: "Old exams"
 - 2018 was the first year that I started with R and finished with SAS. Before that, I did R and SAS both for each statistical technique. Thus, for example, you will see some SAS in old midterms, which you won't see now. Make allowances for this.
 - One of the *most effective* ways to find out whether you know something is to answer questions on it. (Another way is to explain it to someone else.) Thus, your best use of these exams is to *do them under exam conditions* without looking at the solutions, and *then* look at the solutions and grade yourself. This is the fastest way to find out what you don't understand. Read through your notes and work through examples on what you missed, then tackle another exam.
 - I would recommend starting with last year's exams (the most similar to the exams you'll see) and working backwards.
-- If all you do is read through the solutions, you have *wasted a huge learning opportunity*, because you will not be prepared for what you see on exam day.
+- If all you do is read through the solutions, you have *wasted a huge learning opportunity*, because you will not be prepared to deal with what you face on exam day.
 
 ## Old midterm exams
 
