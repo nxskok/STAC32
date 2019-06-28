@@ -22,7 +22,7 @@ navbar:
     - text: "PASIAS"
       href: http://ritsokiguess.site/pasias
     - text: "PASI-SAS"
-      href: http://ritsokiguess.site/pasias/pasi-sas.pdf
+      href: pasi-sas.pdf
     - text: "Old exams"
       href: old_exams.html
     - text: "Ken's other courses"
