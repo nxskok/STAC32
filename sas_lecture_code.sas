@@ -1,3 +1,9 @@
+proc import 
+  datafile='/home/ken/test1.csv'
+  dbms=csv
+  out=mydata
+  replace;
+  getnames=yes;
 proc print;
 proc means;      
 filename myurl url 
@@ -11,6 +17,13 @@ proc import
   getnames=yes;
   
 proc print;
+proc import 
+  datafile='/home/ken/coffee.txt'
+  dbms=dlm
+  out=coffee
+  replace;
+  delimiter=' ';
+  getnames=yes;
 proc print data=coffee(obs=15);      
 filename myurl 
  url 
@@ -26,7 +39,22 @@ proc import
   
 proc print data=soap(obs=10);
 
+proc import 
+  datafile='/home/ken/test2.xlsx'
+  dbms=xlsx
+  out=mydata
+  replace;
+  sheet=data;
+  getnames=yes;
 proc print;    
+proc import 
+  datafile='/home/ken/ais.txt'
+  dbms=dlm
+  out=sports
+  replace;
+  delimiter='09'x;
+  getnames=yes;
+
 proc print data=sports(obs=9);
 proc means;    
 proc sgplot;
@@ -49,6 +77,8 @@ proc sgplot;
 proc sgpanel;
   panelby Sport;
   scatter x=Ht y=Wt / group=Sex;
+data ath;
+  set sports;
 proc means Q1 Q3 Qrange;
   var Wt;
 proc means mean stddev;
@@ -60,11 +90,24 @@ proc means n;
 proc freq;
   tables Sport;
 proc means stddev;
+proc import
+  datafile='/home/ken/jays15-home.csv'
+    dbms=csv
+    out=jays
+    replace;
+  getnames=yes;
 proc print data=jays(obs=6);      
 proc ttest h0=29327;
   var attendance;
   proc sgplot;
     vbox attendance / category=daynight;
+proc import
+  datafile='/home/ken/drp.txt'
+  dbms=dlm
+  out=reading
+  replace;
+  delimiter=' ';
+  getnames=yes;
   proc print;
   proc means;
     class group;
@@ -136,6 +179,13 @@ proc means;
     stddev=15
     groupns=10|34
     power=.;
+proc import
+  datafile='/home/ken/duality.txt'
+    dbms=dlm
+    out=duality
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc print;
     proc ttest;
       var y;
@@ -143,6 +193,12 @@ proc print;
     proc ttest alpha=0.10;
       var y;
       class group;
+proc import
+  datafile='/home/ken/irs.txt'
+    dbms=csv
+    out=irs
+    replace;
+  getnames=yes;
 proc print;    
 proc ttest h0=160 sides=U;
   var Time;
@@ -154,9 +210,19 @@ proc sgplot;
   vbox Time;
 proc univariate cipctldf;
   var Time;
+proc import
+  datafile='/home/ken/analgesic.txt'
+    dbms=dlm
+    out=pain
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc print;    
 proc ttest;
   paired druga*drugb;
+data pain2;
+  set pain;
+  diff=druga-drugb;  
 proc print;    
   proc ttest h0=0;
     var diff;
@@ -168,10 +234,24 @@ proc print;
     qqplot diff / normal(mu=-1.65 sigma=1.455);
 proc univariate;
   var diff;  
+proc import
+  datafile='/home/ken/drp.txt'
+  dbms=dlm
+  out=reading
+  replace;
+  delimiter=' ';
+  getnames=yes;
   proc print;
 proc npar1way median;
   var score;
   class group;
+proc import
+  datafile='/home/ken/jumping.txt'
+    dbms=dlm
+    out=rats
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc anova;
   class group;
   model density=group;
@@ -191,15 +271,48 @@ proc mixed;
   model density=group / ddfm=satterth;
   repeated / group=group;
   lsmeans group / adjust=tukey adjdfe=row;
+proc import 
+  datafile='/home/ken/ais.txt'
+  dbms=dlm
+  out=sports
+  replace;
+  delimiter='09'x;
+  getnames=yes;
+
 proc print data=sports(obs=10);    
+data sports2;
+  set sports;
+  keep Sport Sex Ht Wt;
 proc print data=sports2(obs=8);
+data sports3;
+  set sports;
+  drop RCC--LBM;
     proc print data=sports3(obs=8);
+data sports4;
+  set sports;
+  Wt_lb=Wt*2.2;
+  keep Sport Wt Wt_lb;
 proc print data=sports4(obs=7);    
+data sports5;
+  set sports;
+  if _N_>=16 and _N_<=25;
 proc print;  
+data sports6;
+  set sports;
+  if _N_ in (10, 13, 17, 42);
 proc print;    
+data sports7;
+  set sports;
+  if Sport="Tennis";
 proc print;    
+data sports8;
+  set sports;
+  if Sport="Tennis" and RCC<5;
 proc print;
   var Sex--RCC;
+data sports9;
+  set sports;
+  if Sport="Tennis" or RCC>5;
 proc print;
   var Sex--RCC BMI;
 proc means;
@@ -229,13 +342,49 @@ data sports10;
   keep Sport Wt;
   
 proc print;
+proc import 
+  datafile='/home/ken/pigs1.txt'
+  dbms=dlm out=pigs replace;
+  delimiter=' ';
+  getnames=yes;
 proc print;      
+data pigs2;
+  set pigs;
+  feed='feed1';
+  weight=feed1;
+  output;
+  feed='feed2';
+  weight=feed2;
+  output;
+  feed='feed3';
+  weight=feed3;
+  output;
+  feed='feed4';
+  weight=feed4;
+  output;
+  keep feed weight;
 proc print;    
+data pigs3;
+  set pigs;
+  array feed_array [4] feed1-feed4;
+  do i=1 to 4;
+    weight=feed_array[i];
+    feed=vname(feed_array[i]);
+    output;
+  end;
+  keep pig feed weight;
 proc print;    
 proc anova;
   class feed;
   model weight=feed;
   means feed / tukey;
+proc import
+  datafile='/home/ken/utility.txt'
+    dbms=dlm
+    out=util
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc print data=util(obs=8);    
 proc sgplot;
   scatter x=usage y=demand;
@@ -243,6 +392,9 @@ proc reg;
   model demand=usage;      
 proc transreg;
   model boxcox(demand)=identity(usage);        
+data trans;
+  set util;
+  rtdemand=sqrt(demand);        
 proc sgplot;
   scatter x=usage y=rtdemand;
 proc reg;
@@ -270,9 +422,26 @@ proc print data=crickets(obs=20);
 proc glm;
   class species;
   model pulse_rate=temperature species / solution;
+proc import
+  datafile='/home/ken/mydates.csv'
+    dbms=csv
+    out=dates
+    replace;
+  getnames=yes;
 proc print;
 proc print;
   format date mmddyy8.;
+proc import
+  datafile='/home/ken/pieces.txt'
+    dbms=dlm
+    out=pieces
+    replace;
+  delimiter=' ';
+  getnames=yes;
+  
+data makedates;
+  set pieces;
+  sasdate=mdy(month,day,year);
 proc print;
   format sasdate yymmdd10.;
 proc print;
@@ -296,19 +465,92 @@ proc sgplot;
   series x=real_date y=sales / markers;
   format real_date monyy7.;
 proc print data=dates;
+data moredates;
+  set dates;
+  d=day(date);
+  m=month(date);
+  y=year(date);
 proc print;  
+proc import
+  datafile='/home/ken/dt.csv'
+    dbms=csv
+    out=dt
+    replace;
+  getnames=yes;
 proc print;  
+proc import
+  datafile='/home/ken/manypieces.txt'
+    dbms=dlm
+    out=many
+    replace;
+  delimiter=' ';
+  getnames=yes;
+data dtm;
+  set many;
+  thedate=mdy(month,day,year);
+  sasdt=dhms(thedate,hour,minute,second); 
+  keep thedate hour minute second sasdt;      
 proc print;    
 proc print;    
 format thedate yymmdd10. thetime time8. 
   sasdt datetime.;
+proc import
+  datafile='/home/ken/hospital.csv'
+    dbms=csv
+    out=stays
+    replace;
+  getnames=yes;
+data hospitalstay;
+  set stays;
+  stay=(discharge-admit)/60/60/24;
 proc print;          
+proc import
+  datafile='/home/ken/many.txt'
+    dbms=dlm out=many replace;
+  delimiter=' ';
+  getnames=no;
 proc print;    
+data one;
+  set many;
+  array x_array VAR1-VAR6;
+  do i=1 to 6;
+    x=x_array[i];
+    output;
+  end;
+  keep x;
 proc print;      
+data two;
+  set many;
+  array xy_array VAR1-VAR6;
+  do i=1 to 3;
+    x=xy_array[2*i-1];
+    y=xy_array[2*i];
+    output;
+  end;
+  keep x y;
 proc print;    
+libname mydata V9 '/home/ken';
+proc import
+  datafile='/home/ken/pigs1.txt'
+    dbms=dlm 
+    out=mydata.pigs1
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc means data='/home/ken/pigs1';      
 proc print data=two;      
+libname mydata V9 '/home/ken';    
+data mydata.three; /* permanent data set to save in */
+  set two; /* this has variables x and y in it */
+  z=x+y;
 proc print data='/home/ken/three';
+proc import 
+  datafile='/home/ken/ais.txt'
+  dbms=dlm
+  out=sports
+  replace;
+  delimiter='09'x;
+  getnames=yes;
 proc sgplot;
   histogram Ht;
   density Ht / type=kernel;
@@ -318,10 +560,23 @@ proc sgplot;
 proc sgplot;
   scatter x=Ht y=Wt;
   loess x=Ht y=Wt;
+proc import
+  datafile='/home/ken/windmill.csv'
+    dbms=csv
+    out=windmill
+    replace;
+  getnames=yes;
 proc means;    
 proc sgplot;
   scatter x=wind_velocity y=DC_output;
   loess x=wind_velocity y=DC_output;
+proc import
+  datafile='/home/ken/oranges.txt'
+    dbms=dlm
+    out=trees
+    replace;
+  delimiter=' ';
+  getnames=yes;
 proc print;    
 proc sgplot;
   series x=age y=a / markers;
@@ -329,12 +584,29 @@ proc sgplot;
   series x=age y=c / markers;
   series x=age y=d / markers;
   series x=age y=e / markers;
+proc import 
+  datafile='/home/ken/cars.csv'
+  dbms=csv
+  out=cars
+  replace;
+  getnames=yes;
 proc sgplot;
   scatter y=mpg x=weight / datalabel=car;
 proc sgplot;
   scatter x=weight y=mpg / datalabel=country;
+data cars2;
+  set cars;
+  if (_n_=4 or _n_=9) then do;
+    newtext=car;
+  end;
 proc sgplot;
   scatter x=weight y=mpg / datalabel=newtext;
+data cars3;
+  set cars;
+  if mpg>34 then do;
+     newtext=car;
+  end;
+    
 proc sgplot;
   scatter x=weight y=mpg / datalabel=newtext;
 proc iml;
@@ -364,6 +636,13 @@ proc iml;
   print ans1;
   ans2=A*B;
   print ans2;
+proc import
+  datafile='/home/ken/m.txt'
+    dbms=dlm
+    out=mymatrix
+    replace;
+  delimiter=' ';
+  getnames=no; 
 proc iml;
   use mymatrix;
   read all var {VAR1 VAR2} into M;
