@@ -16,7 +16,7 @@ navbar:
         - text: "R"
           href: R-code.html
         - text: "SAS"
-          href: SAS-code.html
+          href: sas_lecture_code.sas
     - text: "Quercus"
       href: http://q.utoronto.ca
     - text: "PASIAS"
