@@ -15,5 +15,9 @@ In this course, we learn R (and later SAS), and how to use this software for dat
 
 ## News
 
-- 2019-06-17 16:30: lecture notes up.
-- 2019-05-28 11:30: a distant hello from the past.
+- 2019-08-26 13:30: Course info:
+  - lectures Tuesday 1:00-2:00pm in MW 170, Thursday 12:00-1:00pm in SW 319.
+  - tutorial one of Wednesday 3:00-4:00pm, 4:00-5:00pm in BV 498.
+  - tutorials start in *week 1*.
+  - course outline in first few pages of [here](http://ritsokiguess.site/STAC32/slides_c32.pdf). When you come to the first lecture, you will learn why I arrange things as I do.
+- 2019-08-26 13:30: Welcome to STAC32! This website should now be live. Let me know if anything is not working.
