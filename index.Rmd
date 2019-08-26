@@ -12,12 +12,13 @@ Welcome to the home page for STAC32. This is the place to look for all things co
 
 In this course, we learn R (and later SAS), and how to use this software for data organization and to apply statistical methods that you (mostly) already know.
 
+This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future.
 
 ## News
 
 - 2019-08-26 13:30: Course info:
   - lectures Tuesday 1:00-2:00pm in MW 170, Thursday 12:00-1:00pm in SW 319.
   - tutorial one of Wednesday 3:00-4:00pm, 4:00-5:00pm in BV 498.
-  - tutorials start in *week 1*.
+  - tutorials start in *week 1*. In the first tutorial you will work on ["Assignment 0"](https://www.utsc.utoronto.ca/~butler/assgt_data/a0.pdf).
   - course outline in first few pages of [here](http://ritsokiguess.site/STAC32/slides_c32.pdf). When you come to the first lecture, you will learn why I arrange things as I do.
 - 2019-08-26 13:30: Welcome to STAC32! This website should now be live. Let me know if anything is not working.
