@@ -22,6 +22,6 @@ This is an applied course. Expect to be describing the process by which you got 
   - lectures Tuesday 1:00-2:00pm in MW 170, Thursday 12:00-1:00pm in SW 319.
   - tutorial one of Wednesday 3:00-4:00pm, 4:00-5:00pm in BV 498.
   - tutorials start in *week 1*. In the first tutorial you will work on ["Assignment 0"](https://www.utsc.utoronto.ca/~butler/assgt_data/a0.pdf).
-  - office hours after class on Tuesday (14:00-15:30) and before class on Thursday (10:30-11:30).
+  - office hours in IC 471 after class on Tuesday (14:00-15:30) and before class on Thursday (10:30-11:30).
   - course outline in first few pages of [here](http://ritsokiguess.site/STAC32/slides_c32.pdf). When you come to the first lecture, you will learn why I arrange things as I do.
 - 2019-08-26 13:30: Welcome to STAC32! This website should now be live. Let me know if anything is not working.
