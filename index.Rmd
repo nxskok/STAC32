@@ -16,6 +16,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-03 11:15: first lecture is *today* and first tutorial is *tomorrow*.
 - 2019-08-29 14:50: [How to write an email to your instructor](https://docs.google.com/presentation/d/1M9abrkPN7-tmujhcCuUa2DlnxApfDBIKZlNgBRq-amM/edit#slide=id.p3). (This applies to any course you might be taking; adjust the instructor's name and course code appropriately.)
 - 2019-08-26 13:30: Course info:
   - lectures Tuesday 1:00-2:00pm in MW 170, Thursday 12:00-1:00pm in SW 319.
