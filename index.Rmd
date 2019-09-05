@@ -16,6 +16,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-04 20:00: here is [assignment 1](https://www.utsc.utoronto.ca/~butler/c32/a1.pdf). This will be due on Thursday September 12 at 11:59pm. I am hoping to get through everything you need in tomorrow's lecture (we have to talk about reading in files and drawing graphs). The general principle is supposed to be that you'll be able to do each assignment after the preceding Thursday's lecture. Next week's tutorial is a chance for you to work on Assignment 1, either the hand-in problem or any of the related things in [PASIAS](http://ritsokiguess.site/pasias/) (see problem 1 on assignment 1).
 - 2019-09-03 17:30: as we solve one problem, another comes up: if you are registered for STAD29 and STAC53, you get a message on Degree Explorer that these courses are exclusions, which they are not. This will get fixed in the next round of curriculum changes, and so will be in place in time for you to graduate. Thus, don't worry about this now.
 - 2019-09-03 16:00: the Quercus page is up. There isn't much there yet (apart from a link to here), but it is up.
 - 2019-09-03 15:00: as I didn't get the chance to say at the end of lecture today: first tutorial *tomorrow*.
