@@ -16,6 +16,16 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-09 13:00: The Thursday lecture will now be in *IC 130* (effective now, for the rest of the semester). You are likely to find some other class happening in the old room.
+
+- 2019-09-09 12:45: I've been looking at the wait list, and have chosen to admit three more students. My criteria were: must be in the Statistics Applied Minor program, must not simultaneously be in any conflicting program (such as Statistics Major or Minor), *and* must have joined the wait list on or before Wednesday of last week. All of those. My reasons for doing it this way:
+  - the course is required for the Statistics Applied Minor, so I need to give these students priority as far as I can.
+  - students simultaneously in the Applied Minor and some other Statistics program need to choose *one* of those programs, because the programs require courses that are exclusions to each other (and therefore such students run the risk of not having enough distinct credits to graduate). This will be expressly forbidden as of next year.
+  - Students in other Statistics programs (Specialist, Major, Minor) *do not get program credit* for this course, so there is no way I am admitting such students to the course.
+  - Students in eg. Math Specialist can theoretically take this course (logically, they shouldn't be able to, which will be fixed for next year), but I have to give the Applied Minor students preference. (For these students, the course is elective, not required.)
+  - I want students in other disciplines who are on the wait list to be able to take this course if it looks as if they will be able to benefit from it, but this year there are too many Applied Minor students to be able to admit any students in other disciplines off the wait list. I feel bad about this, but unfortunately it's the way it is.
+  - If you joined the wait list seriously after the course has already begun, I question how serious you are about really wanting to get into it.
+
 - 2019-09-05 10:20: STAC32 only offers program credit for the Statistics *Applied* Minor. There are 10 people currently enrolled in the course who are in the Statistics Major/Minor/Specialist programs. A second warning to those people that you *will not* get program credit for STAC32. This applies no matter when you enrolled in your subject post. If you have spoken to me and understand the consequences, you may stay in the course, but otherwise your best option is to withdraw from the course. (This also applies if you are in these programs and are on the wait list; even if you get in, you won't get program credit for the course.) If this is you: there are some people on the wait list who would benefit from taking the course, and *you are preventing them from getting in*.
 
 - 2019-09-04 20:45: I just took a quick look through the "Assignment 0" that were "handed in" (that is way too many quotes). If you got a "yep" comment from me, I saw the HTML output from the mtcars analysis. If I didn't see that, I tried to direct you towards what would work for next time. 
