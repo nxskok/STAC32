@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-12 11:00: reminder: today's class, and all the remaining Thursday lectures, are in **IC 130**.
+
 - 2019-09-09 17:00: on the agenda for this week: numerical summaries (short), the first part of statistical inference (long). I'm aiming to show you the one-sample inference stuff in R this week (that is, one-sample $t$ confidence intervals and hypothesis tests, for estimating a population mean). You ought to be very familiar with the ideas here, but I want to make sure that you really are, along of course with how to code it in R.
 
 - 2019-09-09 16:45: draft of [Assignment 2](https://www.utsc.utoronto.ca/~butler/assgt_data/a2.pdf), which will be due on Thursday 19th.
