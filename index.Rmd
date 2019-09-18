@@ -16,7 +16,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
-- 2019-09-16 23:55: the links to the assignments stopped working. I think the link to assignment 2 is back in business (the link now on Quercus certainly works), but as I write I'm not sure about the assignment 1 solutions.
+- 2019-09-16 23:55: the links to the assignments stopped working. I think the link to assignment 2 is back in business (the link now on Quercus certainly works), but as I write I'm not sure about the assignment 1 solutions. (These appear to be just the questions, not the answers. Mysterious.) Also, the old exam links now appear to be broken. I will look at those in the morning.
 
 - 2019-09-16 17:30: on the agenda for this week: power of tests; tests vs. confidence intervals; (if we get to it) the sign test.
 
