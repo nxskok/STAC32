@@ -11,12 +11,12 @@ title: "Old exams"
 
 ## Old midterm exams
 
-Year  | Exam                         | Figures                          | Solutions
-------|------------------------------|----------------------------------|---------------------------------
-2015  | [exam](midterm-20151-q.pdf)  | [figures](midterm-20191-f.pdf)   | [solutions](midterm-20151-s.pdf)
-2016  | [exam](midterm-20161-q.pdf)  | [figures](midterm-20161-f.pdf)   | [solutions](midterm-20161-s.pdf)
-2017  | [exam](midterm-20171-q.pdf)  | [figures](midterm-20171-f.pdf)   | [solutions](midterm-20171-s.pdf)
-2018  | [exam](midterm-20181-q.pdf)  | [figures](midterm-20181-f.pdf)   | [solutions](midterm-20181-s.pdf)
+Year  | Exam                                                                 | Figures                                                                                                                       | Solutions
+------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+2015  | [exam](http://www.utsc.utoronto.ca/~butler/c32/midterm-20151-q.pdf)  | [figures](http://www.utsc.utoronto.ca/~butler/c32/midterm-20191-f.pdf)   | [solutions](http://www.utsc.utoronto.ca/~butler/c32/midterm-20151-s.pdf) |
+2016  | [exam](http://www.utsc.utoronto.ca/~butler/c32/midterm-20161-q.pdf)  | [figures](http://www.utsc.utoronto.ca/~butler/c32/midterm-20161-f.pdf)   | [solutions](http://www.utsc.utoronto.ca/~butler/c32/midterm-20161-s.pdf) |
+2017  | [exam](http://www.utsc.utoronto.ca/~butler/c32/midterm-20171-q.pdf)  | [figures](http://www.utsc.utoronto.ca/~butler/c32/midterm-20171-f.pdf)   | [solutions](http://www.utsc.utoronto.ca/~butler/c32/midterm-20171-s.pdf) |
+2018  | [exam](http://www.utsc.utoronto.ca/~butler/c32/midterm-20181-q.pdf)  | [figures](http://www.utsc.utoronto.ca/~butler/c32/midterm-20181-f.pdf)   | [solutions](http://www.utsc.utoronto.ca/~butler/c32/midterm-20181-s.pdf) |
 
 
 ## Old final exams
