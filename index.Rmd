@@ -20,9 +20,9 @@ This is an applied course. Expect to be describing the process by which you got 
 
 - 2019-09-16 17:30: on the agenda for this week: power of tests; tests vs. confidence intervals; (if we get to it) the sign test.
 
-- 2019-09-16 17:30: my solutions to [Assignment 1](https://www.utsc.utoronto.ca/~butler/c32/a1.pdf). Also, [Assignment 2](https://www.utsc.utoronto.ca/~butler/c32/a2.pdf) is up on Quercus. I seem to have taken my time getting to those. Sorry. 
+- 2019-09-16 17:30: my solutions to [Assignment 1](a1.pdf). Also, [Assignment 2](a2.pdf) is up on Quercus. I seem to have taken my time getting to those. Sorry. 
 
-- 2019-09-12 16:05: here's the draft [Assignment 3](https://www.utsc.utoronto.ca/~butler/c32/a3.pdf). You can do questions 1 and 3 now, should you be looking for something to do.
+- 2019-09-12 16:05: here's the draft [Assignment 3](a3.pdf). You can do questions 1 and 3 now, should you be looking for something to do.
 
 - 2019-09-12 15:00: I've been thinking about assignments 2 and 3. We have actually done as of today the two-sample testing that is currently the first hand-in question on assignment 3; I could move it to assignment 2, but I don't want to make that too long. This means that there will probably be *two* hand-in questions on assignment 3, one on two-sample testing and one on power (which is coming up in class next week). One of these assignments is going to be longer, but I think I would prefer it to be number 3, to give you a chance to get used to everything first. Thus, expect assignment 2 to be (almost exactly) the same as the draft that went up this week. There will be a hand-in for Assignment 2 on Quercus on about Friday. (I am trying to minimize the chances of people handing an assignment in in the wrong place.)
 
