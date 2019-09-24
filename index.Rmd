@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-24 11:15: here's the draft [Assignment 4](a4.pdf). One question to hand in, on the sign test and CI for the median (which we'll do today or Thursday).
+
 - 2019-09-20 18:30: [Assignment 3](a3.pdf) is up on Quercus. A warning that this is long, so make sure you allow enough time to do it all. (Assignment 4 will be shorter.) Also, [my Assignment 2 solutions](a2.pdf).
 
 - 2019-09-19 17:30: on the agenda for next week: the rest of the sign test, including my package for running it (which we will learn how to install); the stuff I skipped on confidence intervals vs. tests; confidence interval for the median; matched pairs; normal quantile plot. Or some of that, at least.
