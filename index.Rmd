@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-27 11:40: on the slate for next week: Mood's median test (with a bit of preamble on the chi-squared test for independence); analysis of variance, Tukey's method and some variations on analysis of variance and when to use them. Whatever we get to before reading week is fair game for the midterm. 
+
+- 2019-09-27 11:30: my [solutions to assignment 3](a3.pdf). Also, [assignment 4](a4.pdf) is up on Quercus. I am trying to decide how long to make Assignment 5; I can include questions on any of matched pairs, normal quantile plots, Mood's median test (which we do next week). There is a battle (in my mind) between not making it too long for you, and making it longer to give you more practice for the midterm. I am currently inclined to make it a bit longer to prepare you better for the midterm (this will be the last assignment before the midterm). But we'll see how it plays out.
+
 - 2019-09-24 11:15: here's the draft [Assignment 4](a4.pdf). Only one question to hand in, on the sign test and CI for the median (which we'll do today or Thursday).
 
 - 2019-09-20 18:30: [Assignment 3](a3.pdf) is up on Quercus. A warning that this is long, so make sure you allow enough time to do it all. (Assignment 4 will be shorter.) Also, [my Assignment 2 solutions](a2.pdf).
