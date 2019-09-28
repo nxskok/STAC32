@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-09-27 21:00: [A nice essay](https://aeon.co/essays/good-citizenship-depends-on-basic-statistical-literacy?utm_source=twitter&utm_medium=referral&utm_campaign=essay_hum) on statistical literacy.
+
 - 2019-09-27 15:00: in the unlikely event that you care yet, a draft [Assignment 5](a5.pdf). It has two questions on it, and is thus a similar length to Assignment 3 (for reasons I discuss below). It is not final yet; I may decide to shorten it some. Expect assignment 6, due after the midterm (target date Oct 31), to be shorter. 
 
 - 2019-09-27 11:40: on the slate for next week: Mood's median test (with a bit of preamble on the chi-squared test for independence); analysis of variance, Tukey's method and some variations on analysis of variance and when to use them. Whatever we get to before reading week is fair game for the midterm. 
