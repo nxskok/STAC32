@@ -16,9 +16,20 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-01 15:45: some thoughts about the midterm:
+  - the exam is open book. You can bring your lecture notes, assignments, my assignment solutions, anything from PASIAS, *printed out*. (No computers at the exam.) You will not have time at the exam to search through your materials for things, so make sure you spend time organizing what you bring so you know where to find what you're looking for. 
+  - this is a handwritten exam. Be prepared to write, actual words. Calculation will be zero to minimal. If you want to bring a non-programmable non-communicating calculator, be my guest.
+  - You will be asked for R code to do certain tasks on data that I show you, which you will have to write out. (I appreciate that you will not be in front of a computer so you won't be able to try it and make sure it works.) Attention to detail is key here. If the code won't work, you'll lose some points. (On the other hand, if it's a sensible idea, even with errors, you can expect to get something.)
+  - I will also show you output or graphs and ask you questions about those, or describe situations and ask you questions about that. 
+  - Copying stuff verbatim (word for word) out of my notes is very unlikely to be worth any marks. You will need to think about how *ideas* in what we have studied apply to the data in front of you.
+  - the overall style will be similar to past midterms. So organize your materials and practice with the old midterms, judging how much time you have and where you could save time (eg. by being more organized).
+  - in years before 2018, I did R and SAS together through the course, so on midterms 2017 and before, you will see some SAS questions on the midterm that you won't see now. This means that we are going somewhat faster through the material than we did in 2017 and before, so you might like to look ahead to old final exams to find more R stuff to practice.
+  - in the "explain briefly" questions I am usually searching for one idea, which you can explain in maybe two well-written sentences. If you write a lot of irrelevant stuff along with a good answer, you may not get all the marks. Learn to be concise and accurate.
+  - I try to write my exams to give you a chance to show me what you know; there are often several different (but equally good) ways to approach a question, which I try to discuss in my solutions. As you have seen on the assignments, I often care more about your logical process than about your specific answer.
+
 - 2019-09-27 21:00: [A nice essay](https://aeon.co/essays/good-citizenship-depends-on-basic-statistical-literacy?utm_source=twitter&utm_medium=referral&utm_campaign=essay_hum) on statistical literacy.
 
-- 2019-09-27 15:00: in the unlikely event that you care yet, a draft [Assignment 5](a5.pdf). It has two questions on it, and is thus a similar length to Assignment 3 (for reasons I discuss below). It is not final yet; I may decide to shorten it some. Expect assignment 6, due after the midterm (target date Oct 31), to be shorter. 
+- 2019-09-27 15:00: in the unlikely event that you care yet, a draft [Assignment 5](a5.pdf). It has two questions on it, and is thus a similar length to Assignment 3 (for reasons I discuss below). It is not final yet; I may decide to shorten it some. Expect assignment 6, due after the midterm (target due date Oct 31), to be shorter. 
 
 - 2019-09-27 11:40: on the slate for next week: Mood's median test (with a bit of preamble on the chi-squared test for independence); analysis of variance, Tukey's method and some variations on analysis of variance and when to use them. Whatever we get to before reading week is fair game for the midterm. 
 
