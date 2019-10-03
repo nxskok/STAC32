@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-03 15:30: If you want some practice on the material from today's lecture, [Chapter 12 in PASIAS](http://ritsokiguess.site/pasias/analysis-of-variance.html#analysis-of-variance) is the place to look. You may not have time to get to it now, but you would definitely benefit from working through it before the midterm.
+
+- 2019-10-03 15:30: You might be happy to learn that I shortened [Assignment 5](a5.pdf). The last question now only has four parts. (I left the other three parts in in case you wanted to do them, but you only need to hand in (a) through (d) of the last question.)
+
 - 2019-10-03 14:10: That flow chart from today's lecture:
 
 ```{r, echo=F, fig.dim=c(12, 4)}
@@ -30,7 +34,7 @@ C-- 3+ groups-->H[Pairwise median tests];
 ")
 ```
 
-This is a thing called an HTMLwidget, which means I just need to include the R code chunk that produced it in the webpage, play with the sizing, and it will appear.
+This is a thing called an HTMLwidget, which means I just need to include the R code chunk that produced it in the webpage, play with the sizing, and it will appear. Feel free to screenshot it for printing (I think it will fit on one sheet of paper in landscape, and still be readable).
 
 - 2019-10-01 15:45: some thoughts about the midterm:
   - the exam is open book. You can bring your lecture notes, assignments, my assignment solutions, anything from PASIAS, *printed out*. (No computers at the exam.) You will not have time at the exam to search through your materials for things, so make sure you spend time organizing what you bring so you know where to find what you're looking for. 
