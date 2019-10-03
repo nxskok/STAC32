@@ -16,6 +16,22 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-03 14:10: That flow chart from today's lecture:
+
+```{r, echo=F, fig.dim=c(12, 4)}
+DiagrammeR::DiagrammeR("graph LR;
+A{All samples normal enough?}-- Yes -->B{Equal enough spread?};
+A-- No -->C[Mood median test];
+B-- Yes -->D[Pooled t / ANOVA];
+B-- No -->E[Welch t / Welch ANOVA];
+D-- 3+ groups -->F[Tukey];
+E-- 3+ groups-->G[Games-Howell];
+C-- 3+ groups-->H[Pairwise median tests];
+")
+```
+
+This is a thing called an HTMLwidget, which means I just need to include the R code chunk that produced it in the webpage, play with the sizing, and it will appear.
+
 - 2019-10-01 15:45: some thoughts about the midterm:
   - the exam is open book. You can bring your lecture notes, assignments, my assignment solutions, anything from PASIAS, *printed out*. (No computers at the exam.) You will not have time at the exam to search through your materials for things, so make sure you spend time organizing what you bring so you know where to find what you're looking for. 
   - this is a handwritten exam. Be prepared to write, actual words. Calculation will be zero to minimal. If you want to bring a non-programmable non-communicating calculator, be my guest.
