@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-04 15:15: I have a first draft of the midterm. It currently has 8 questions worth a total of 91 points, which makes it a little too long. I will be cutting something.
+
 - 2019-10-03 15:30: If you want some practice on the material from today's lecture, [Chapter 12 in PASIAS](http://ritsokiguess.site/pasias/analysis-of-variance.html#analysis-of-variance) is the place to look. You may not have time to get to it now, but you would definitely benefit from working through it before the midterm.
 
 - 2019-10-03 15:30: You might be happy to learn that I shortened [Assignment 5](a5.pdf). The last question now only has four parts. (I left the other three parts in in case you wanted to do them, but you only need to hand in (a) through (d) of the last question.)
