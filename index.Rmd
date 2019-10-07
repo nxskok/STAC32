@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-07 10:00: on the agenda for this week: writing reports, and (maybe) tidying and organizing data, the start of.
+
 - 2019-10-07 10:00: [Assignment 5](a5.pdf) is up on Quercus, as amended on Thursday. Here are my solutions to [Assignment 4](a4.pdf). These were supposed to go up on Friday, but I didn't get to it until now. Sorry.
 
 - 2019-10-04 15:15: I have a first draft of the midterm. It currently has 8 questions worth a total of 91 points, which makes it a little too long. I will be cutting something.
