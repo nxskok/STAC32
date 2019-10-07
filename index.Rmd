@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-07 10:00: [Assignment 5](a5.pdf) is up on Quercus, as amended on Thursday. Here are my solutions to [Assignment 4](a4.pdf). These were supposed to go up on Friday, but I didn't get to it until now. Sorry.
+
 - 2019-10-04 15:15: I have a first draft of the midterm. It currently has 8 questions worth a total of 91 points, which makes it a little too long. I will be cutting something.
 
 - 2019-10-03 15:30: If you want some practice on the material from today's lecture, [Chapter 12 in PASIAS](http://ritsokiguess.site/pasias/analysis-of-variance.html#analysis-of-variance) is the place to look. You may not have time to get to it now, but you would definitely benefit from working through it before the midterm.
