@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-08 11:45: I am working on new and revised examples for the section on tidying data (which we'll begin at the end of today or on Thursday). Look out for revised lecture notes, and revised code to go with them.
+
 - 2019-10-07 10:00: on the agenda for this week: writing reports, and (maybe) tidying and organizing data, the start of.
 
 - 2019-10-07 10:00: [Assignment 5](a5.pdf) is up on Quercus, as amended on Thursday. Here are my solutions to [Assignment 4](a4.pdf). These were supposed to go up on Friday, but I didn't get to it until now. Sorry.
