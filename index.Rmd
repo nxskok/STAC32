@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-08 12:45: just in time to head to class, the updated [lecture notes](slides_c32.pdf) are up.
+
 - 2019-10-08 11:45: I am working on new and revised examples for the section on tidying data (which we'll begin at the end of today or on Thursday). Look out for revised lecture notes, and revised code to go with them.
 
 - 2019-10-07 10:00: on the agenda for this week: writing reports, and (maybe) tidying and organizing data, the start of.
