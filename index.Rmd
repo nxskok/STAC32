@@ -16,6 +16,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-10 12:00: pre-midterm office hours *Thursday* of reading week, 2:30-4:30.
 - 2019-10-09 11:30: some notes:
   - I plan to finish work on your midterm tomorrow afternoon, making a final decision on its length then. 
   - Anything that we cover up to and including tomorrow's lecture is fair game for the midterm. I will point you to problems in PASIAS about report-writing and tidying data that haven't appeared on an assignment yet, so you have a chance to practice those.
