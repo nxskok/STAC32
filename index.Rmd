@@ -16,7 +16,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
-- 2019-10-15 15:30: I will shortly upload a new version of PASIAS that includes `pivot_longer` and `pivot_wider` as an alternative, everywhere that `gather` and `spread` were before. For you, I recommend picking one and learning it (at least for now). The `pivot_` functions are the future, if that guides you in your decision. On an exam, you can go either way for full marks (my solutions will have both). 
+- 2019-10-15 15:30: (edit 17:30: uploaded.) I will shortly upload a new version of PASIAS that includes `pivot_longer` and `pivot_wider` as an alternative, everywhere that `gather` and `spread` were before. For you, I recommend picking one and learning it (at least for now). The `pivot_` functions are the future, if that guides you in your decision. On an exam, you can go either way for full marks (my solutions will have both). 
 Next year I plan to teach only the `pivot_` versions, but this year you have the opportunity to use either. (Expect to see only `pivot_longer` and `pivot_wider` in D29, if I get to my notes in time.)
 
 - 2019-10-12 13:30: the [2016](final-20169-s.pdf) and [2017](final-20179-s.pdf) final exams now have `pivot_longer` as an alternative to `gather` (the extra notes are labelled "2019" in the exam solutions). The 2016 final also has some `gather` code in the Figures, to which I added the `pivot_longer` equivalent. (In the days when I did R and SAS together, we didn't get as far as `gather` by the midterm.)
