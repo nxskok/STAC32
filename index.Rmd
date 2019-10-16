@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-16 14:30: reminders:
+  - midterm exam is *Saturday October 19, 9:00-11:00, HLB 101* (Highland Hall), the lecture room downstairs from the event centre.
+  - pre-midterm office hours are *Thursday October 17*, 2:30-4:30 (or earlier if I get there earlier).
+
 - 2019-10-15 15:30: (edit 17:30: uploaded.) I will shortly upload a new version of PASIAS that includes `pivot_longer` and `pivot_wider` as an alternative, everywhere that `gather` and `spread` were before. For you, I recommend picking one and learning it (at least for now). The `pivot_` functions are the future, if that guides you in your decision. On an exam, you can go either way for full marks (my solutions will have both). 
 Next year I plan to teach only the `pivot_` versions, but this year you have the opportunity to use either. (Expect to see only `pivot_longer` and `pivot_wider` in D29, if I get to my notes in time.)
 
