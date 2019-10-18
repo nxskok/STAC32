@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-17 21:45: there is some kind of bizarre error on slide 161 of the lecture notes. For now, ignore this slide. The P-value you need, 0.0668 (greater than 0.05 and less than 0.10) is on the previous two slides.
+
 - 2019-10-16 14:30: reminders:
   - midterm exam is *Saturday October 19, 9:00-11:00, HLB 101* (Highland Hall), the lecture room downstairs from the event centre.
   - pre-midterm office hours are *Thursday October 17*, 2:30-4:30 (or earlier if I get there earlier).
