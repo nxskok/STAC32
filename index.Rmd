@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-19 13:15: just so that you know: next week there is *no assignment* and also *no tutorials*. Assignment 6 (not quite finished yet) will be due on Oct 31; there will be tutorials again that week.
+
 - 2019-10-19 13:00: your exams are all scanned. We have an online grading system, which means that you will get an online copy of your marked exam back afterwards. I will shortly start my share of the grading, but in the meantime, [my solutions](midterm-20199.pdf) and [the figures](midterm-20199-f.pdf). My solutions will get added to as we grade (especially if people do stuff that we weren't expecting).
 
 - 2019-10-17 21:45: there is some kind of bizarre error on slide 161 of the lecture notes. For now, ignore this slide. The P-value you need, 0.0668 (greater than 0.05 and less than 0.10) is on the previous two slides. (Later: fixed.)
