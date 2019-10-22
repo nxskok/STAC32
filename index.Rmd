@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-22 14:30: **important**: no tutorial tomorrow, because no assignment. Tutorials begin again on October 30, with assignment 6 due on October 31.
+
+- 2019-10-22 14:25: websites I meant to share in class [about BMI](https://www.medicinenet.com/script/main/art.asp?articlekey=16125) and about [shot putting](https://en.wikipedia.org/wiki/Shot_put).
+
 - 2019-10-21 21:20: comments on the exam, particularly if the outcome disappointed you:
   - read over your marked exam with [my solutions](midterm-20199.pdf). In the solutions you will often see a grading scheme that says what kind of work I was expecting for what grade. You may have additional comments on your work that indicate something missing or an error you made (or a point you made that was worth something, if you see a checkmark. A checkmark is not necessarily one point.) Each question part has been graded by the same person for all the exams, and they have done their best to be consistent. (I randomly choose an exam to begin with each time, so as to share out any advantages or disadvantages of being at the top or bottom of the pile.)
   - In my solutions, I have tried to include some mention of the various different ways you could tackle each question. 
