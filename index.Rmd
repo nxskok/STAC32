@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-22 16:15: draft [assignment 6](a6.pdf). It's about writing a report, using some of the data-tidying and data-organizing tools that we've seen.
+
+- 2019-10-22 15:30: In response to a question in class: to match upper and lower case in the select-helpers, `ignore.case=F` in any of `starts_with`, `ends_with`, `contains`, `matches` is the way to go (for example, `select(contains("tt", ignore.case=F))` to select those columns whose names contain two consecutive *lowercase* t's). It's a double negative: "don't ignore case", ie., pay attention to whether the letters are uppercase or lowercase.
+
 - 2019-10-22 14:30: **important**: no tutorial tomorrow, because no assignment. Tutorials begin again on October 30, with assignment 6 due on October 31.
 
 - 2019-10-22 14:25: websites I meant to share in class [about BMI](https://www.medicinenet.com/script/main/art.asp?articlekey=16125) and about [shot putting](https://en.wikipedia.org/wiki/Shot_put).
