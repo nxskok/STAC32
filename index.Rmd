@@ -35,7 +35,7 @@ This is an applied course. Expect to be describing the process by which you got 
     cases, spending time organizing your notes will pay off, because (i) you will know exactly where to find things and (ii) the process of doing so will remind you of stuff we talked about in class, so that you will be able to call it to mind quicker.
     - This is not a hard course to succeed in, provided *you do the work, yourself*. That means setting aside time to sit down in front of a computer and run R Studio, yourself. Learn how it works, and how to solve the kind of problems we run into. There is no substitute for this. Get practice with writing about your code and results. R Notebooks make this very easy. If you need help with study skills generally, [Academic Advising](https://www.utsc.utoronto.ca/aacc/study-skills-services) can help you. If you need help, *get help*.
 
-- 2019-10-21 21:15: exam marks are posted on Quercus. I will shortly be sending you your graded exam. In a moment, I will be telling you what to do if you have issues with the grading.
+- 2019-10-21 21:15: exam marks are posted on Quercus. I will shortly be sending you your graded exam. If you can't find it, look in your email for something from Crowdmark. In a moment, I will be telling you what to do if you have issues with the grading.
 
 - 2019-10-21 21:00: I think I'm happy with the grades. Median 56.5/85=66%, Q3 66/85=78%, Q1 50/85=59%. My [final solutions](midterm-20199.pdf).
 
