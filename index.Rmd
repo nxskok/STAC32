@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-24 16:45: [Assignment 6](a6.pdf) is up on [Quercus](http://q.utoronto.ca/). I didn't change anything from the draft.
+
 - 2019-10-22 16:15: draft [assignment 6](a6.pdf). It's about writing a report, using some of the data-tidying and data-organizing tools that we've seen.
 
 - 2019-10-22 15:30: In response to a question in class: to match upper and lower case in the select-helpers, `ignore.case=F` in any of `starts_with`, `ends_with`, `contains`, `matches` is the way to go (for example, `select(contains("tt", ignore.case=F))` to select those columns whose names contain two consecutive *lowercase* t's). It's a double negative: "don't ignore case", ie., pay attention to whether the letters are uppercase or lowercase.
