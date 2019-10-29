@@ -16,6 +16,11 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-10-29 12:15: 
+  - for this week's lectures: simple and multiple regression, as illustrated by the windmill and asphalt examples. After that, a discussion of regression with categorical variables. 
+
+  - At some point among that, I will be talking about the project, in which you will probably be using ideas from writing reports (assignment 6) and regression/ANOVA/data tidying.
+
 - 2019-10-24 16:45: [Assignment 6](a6.pdf) is up on [Quercus](http://q.utoronto.ca/). I didn't change anything from the draft.
 
 - 2019-10-22 16:15: draft [assignment 6](a6.pdf). It's about writing a report, using some of the data-tidying and data-organizing tools that we've seen.
