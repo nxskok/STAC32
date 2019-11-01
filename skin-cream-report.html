@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Ken Butler" />
+
+<meta name="date" content="2019-10-30" />
+
+<title>Comparing Skin Creams</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STAC32</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lecture notes
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="slides_c32.pdf">R lecture notes</a>
+    </li>
+    <li>
+      <a href="slides-sas.pdf">SAS lecture notes</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lecture code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R-code.html">R</a>
+    </li>
+    <li>
+      <a href="sas_lecture_code.txt">SAS</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="http://q.utoronto.ca">Quercus</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/pasias">PASIAS</a>
+</li>
+<li>
+  <a href="pasi-sas.pdf">PASI-SAS</a>
+</li>
+<li>
+  <a href="old_exams.html">Old exams</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home/courses.html">Ken's other courses</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home">Ken Butler home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Comparing Skin Creams</h1>
+<h4 class="author"><em>Ken Butler</em></h4>
+<h4 class="date"><em>10/30/2019</em></h4>
+
+</div>
+
+
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Is a new skin cream superior to others on the market? To be better, a skin cream should remove more skin blemishes from the person it is tested on. This report describes a study in which a new skin cream, labelled <code>New</code>, was compared with the best crean currently on the market, labelled <code>Old</code>, and a placebo cream, <code>Control</code>. Our aim is to compare these three creams in terms of the numbers of blemishes they remove. We hope to see that the new skin cream is significantly better than the others at removing skin blemishes.</p>
+</div>
+<div id="analysis" class="section level2">
+<h2>Analysis</h2>
+<div id="introduction-1" class="section level3">
+<h3>Introduction</h3>
+<p>We need to load a couple of packages first:</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ──────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.2.1     ✔ purrr   0.3.2
+## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
+## ✔ tidyr   1.0.0     ✔ stringr 1.4.0
+## ✔ readr   1.3.1     ✔ forcats 0.4.0</code></pre>
+<pre><code>## ── Conflicts ─────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(smmr)</code></pre>
+<p>Thirty subjects were randomly assigned to one of the three creams, and the number of blemishes removed from each subject was recorded. The data are as follows, being separated in the data file by single spaces:</p>
+<pre class="r"><code>my_url=&quot;http://www.utsc.utoronto.ca/~butler/assgt_data/cosmetic-wide.txt&quot;
+cosmetic=read_delim(my_url, &quot; &quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   New = col_double(),
+##   Old = col_double(),
+##   Control = col_double()
+## )</code></pre>
+<pre class="r"><code>cosmetic</code></pre>
+<pre><code>## # A tibble: 10 x 3
+##      New   Old Control
+##    &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;
+##  1    81    48      18
+##  2    32    31      49
+##  3    42    25      33
+##  4    62    22      19
+##  5    37    30      24
+##  6    44    30      17
+##  7    38    32      48
+##  8    47    15      22
+##  9    49    40      NA
+## 10    41    NA      NA</code></pre>
+<p>Three of the 30 subjects dropped out before the study was complete; these are the missing values in the data set above.</p>
+</div>
+<div id="tidying" class="section level3">
+<h3>Tidying</h3>
+<p>The data in the current format are not suitable for analysis because they are not “tidy”: the three columns are all numbers of blemishes under different conditions, and the column names are not variables themselves but levels of a categorical variable that says which skin cream a subject received. We need the numbers of blemishes in <em>one</em> column, with a second column saying which treatment (cream) the subject received.</p>
+<p>That is to say, we need to make the data set <em>longer</em> (and to remove the missing values):</p>
+<pre class="r"><code>cosmetic %&gt;%
+    pivot_longer(everything(), names_to=&quot;treatment&quot;, 
+                 values_to=&quot;blemishes&quot;, values_drop_na=T) -&gt; cosmetic_tidy
+cosmetic_tidy</code></pre>
+<pre><code>## # A tibble: 27 x 2
+##    treatment blemishes
+##    &lt;chr&gt;         &lt;dbl&gt;
+##  1 New              81
+##  2 Old              48
+##  3 Control          18
+##  4 New              32
+##  5 Old              31
+##  6 Control          49
+##  7 New              42
+##  8 Old              25
+##  9 Control          33
+## 10 New              62
+## # … with 17 more rows</code></pre>
+<p>This is now tidy, and we can work with it.</p>
+</div>
+<div id="exploratory-analysis" class="section level3">
+<h3>Exploratory analysis</h3>
+<p>We begin by plotting the data. With one quantitative and one categorical variable, a boxplot is suitable:</p>
+<pre class="r"><code>ggplot(cosmetic_tidy, aes(x=treatment, y=blemishes)) + geom_boxplot()</code></pre>
+<p><img src="skin-cream-report_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>The New and Old groups both have upper outliers, with the one in the New group being especially far out. As well, the Control group distribution appears skewed to the right (long upper whisker) and more variable than the other groups.</p>
+<p>As far as medians are concerned, the New cream removed more blemishes on average for our data, with the Old and Control creams being fairly similar. But the real question of interest is whether this difference <em>generalizes</em>: that is to say, whether that applies to <em>all</em> individuals that apply these creams, rather than just the ones we happened to look at. To assess that, we need a hypothesis test.</p>
+</div>
+<div id="inference" class="section level3">
+<h3>Inference</h3>
+<p>To compare three groups, we need to use something like analysis of variance. This assumes two things: approximate normality within the groups, and approximately equal spreads between the groups. We have already noted that equal spreads is questionable (the Control group appears more spread out than the others), and because of the outliers, normality is questionable also. The groups are small (10, 9, and 8 observations) so it is necessary to require that the data are closer to normal than this (the Central Limit Theorem will not help much).</p>
+<p>With that in mind, the most sensible test here seems to be Mood’s median test:</p>
+<pre class="r"><code>median_test(cosmetic_tidy, blemishes, treatment)</code></pre>
+<pre><code>## $table
+##          above
+## group     above below
+##   Control     2     5
+##   New         9     1
+##   Old         2     7
+## 
+## $test
+##        what        value
+## 1 statistic 10.463492063
+## 2        df  2.000000000
+## 3   P-value  0.005344186</code></pre>
+<p>This tells us that the three groups do not all have the same median. We therefore follow up with pairwise median tests to find out which groups differ:</p>
+<pre class="r"><code>pairwise_median_test(cosmetic_tidy, blemishes, treatment)</code></pre>
+<pre><code>## # A tibble: 3 x 4
+##   g1      g2    p_value adj_p_value
+##   &lt;chr&gt;   &lt;chr&gt;   &lt;dbl&gt;       &lt;dbl&gt;
+## 1 Control New    0.0578      0.173 
+## 2 Control Old    0.447       1     
+## 3 New     Old    0.0184      0.0553</code></pre>
+<p>Looking at the adjusted P-values in the last column, we find that <em>none</em> of the groups differ significantly! Having said that, we note that the New-Old comparison <em>almost</em> reaches significance, but the comparison with <code>Control</code> is not significant in either case.</p>
+</div>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<p>The analysis shows that there is at least one significant difference between the creams, but the pairwise median tests don’t (strictly) reveal anything significant. I think the fairest conclusion to draw here is that <code>New</code> is almost significantly better than <code>Old</code> but not compared to <code>Control</code>. So we have a suggestion that <code>New</code> is best, but not anything concrete. I think that the <code>Control</code> measurements are too variable (and there are too few of them) to be able to make a more concrete conclusion. My recommendation, therefore, is that (given we appear to be stuck with a Mood’s median test) that we should have collected more data. This would have enabled a clearer conclusion. This is in some ways not surprising, because we know Mood’s median test does not use the data very efficiently (just above/below the overall median, rather than the actual value). If an ANOVA of some kind had been appropriate here, we would have an easier time with the conclusions.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -16,6 +16,12 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-01 11:30: [Draft assignment 7](a7.pdf). This is on multiple regression, and a bit long, but you have seen everything you need in lecture.
+
+- 2019-11-01 11:20: [My solutions](a6.pdf) to Assignment 6, or at least the coding part thereof. Here is my version of [a report](skin-cream-report.html), and the [R Markdown document](skin-cream-report.Rmd) from which it came. I used subheadings in my Analysis section to help the reader keep track.
+
+- 2019-11-01 11:15: happy All Saints Day (that's the day after Halloween). The second-to-last paragraph of [this](https://www.al.com/living/2013/11/days_of_the_dead_whats_the_dif.html) explains where Halloween comes from.
+
 - 2019-10-29 12:15: 
   - for this week's lectures: simple and multiple regression, as illustrated by the windmill and asphalt examples. After that, a discussion of regression with categorical variables. 
 
