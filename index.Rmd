@@ -14,13 +14,13 @@ In this course, we learn R (and later SAS), and how to use this software for dat
 
 This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future.
 
-## News
+## News bblah
 
 - 2019-11-04 11:30: I decided to leave Assignment 7 as it was. I have a couple of reasons for this: (i) though there are 10 parts, each one is not that complicated, and if you understand what you are doing, the whole thing ought not to take too long; (ii) many of the projects are or can be multiple regressions, and so the techniques here will be useful to you when you do your project; (iii) many multiple regressions follow a process similar to the one in Assignment 7, so having the practice now is useful. Assignment 7 is going up on Quercus.
 
 - 2019-11-04 10:00: 
   - when we get to the end of the regression material (Case Study 3 and the regression with categorical variables), it's time to move off R and onto SAS. So I plan for tomorrow's lecture to be the last one on R (at least for now), and to start SAS on Thursday, so that the final Assignment 8 can be using SAS. (I might come back to R at the very end of the course, depending on how we're doing for time.)
-  - I plan to shorten Assignment 7 a little from the draft. That will go up on Quercus this afternoon.
+  - I plan to shorten Assignment 7 a little from the draft. That will go up on Quercus this afternoon.  
 
 - 2019-11-01 13:00: we discovered an inconsistency in the grading of 2(c) on the midterm. If you had a low-numbered booklet, you might have received one mark too few. This has now been fixed and uploaded to Quercus.
 
