@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-05 14:30: somebody left their phone behind in class. It's in my office. If it's yours, visit my office and let me know (i) which carrier and (ii) what the picture on the lock screen is and it's yours.
+
 - 2019-11-04 13:15: Here is the draft [Assignment 8](a8.pdf). It won't make any sense to you yet, although having said that, you actually can do question 1 now. The hand-in part of the assignment is short, but you will need to do some preparatory work first, so it's not quite as short as it looks.
 
 - 2019-11-04 11:30: I decided to leave Assignment 7 as it was. I have a couple of reasons for this: (i) though there are 10 parts, each one is not that complicated, and if you understand what you are doing, the whole thing ought not to take too long; (ii) many of the projects are or can be multiple regressions, and so the techniques here will be useful to you when you do your project; (iii) many multiple regressions follow a process similar to the one in Assignment 7, so having the practice now is useful. Assignment 7 is going up on Quercus.
