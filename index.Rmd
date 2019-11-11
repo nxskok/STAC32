@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-11 11:45: I modified my [Assignment 7 solutions](a7.pdf) slightly because of some comments by the grader. Also, I want to modify my SAS notes a little so that the file access is to things on the web rather than files on my computer (so that you can follow along and get what I did). Also also, I have started work on your final exam.
+
 - 2019-11-09 12:20: My [Assignment 7 solutions](a7.pdf), plus a note that [Assignment 8](a8.pdf) is now up. (Assignment 8 is the last assignment.)
 
 - 2019-11-08 12:20: I have been hearing about some students getting "unauthorized" when they tried to access Assignment 7. I don't know what this is, but it looks as if it is intermittent, meaning that "try again later" might work. I haven't heard about any problems today, so I'm willing to accept any assignments that have been handed in up to now or within the next few minutes. (This should accommodate you if you couldn't hand it in last night but managed to do so this morning.) 
