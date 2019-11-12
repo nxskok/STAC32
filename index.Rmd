@@ -16,6 +16,16 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-12 10:30: I've been getting "HTTP Status 500 – Internal Server Error" when I try to access SAS Studio for the last day or two. Is that happening to you? If it is, let me know. (Try it and see, even if you haven't started work on the actual assignment yet.)
+A "500 error" is not something we can do anything about; we have to wait for it to be fixed at the other end. If this is a problem for a lot of people. I'm willing to give an extension on Assignment 8.
+
+- 2019-11-12 10:30: [Project instructions here](project.pdf). In brief:
+  - work in a group of up to six people (chosen by you)
+  - choose *one* of the data sets in the document (click on the link there)
+  - decide on some questions of interest
+  - do your analysis in R/SAS/both
+  - write a report with Introduction-Analysis-Conclusion that tells story of your findings.
+
 - 2019-11-11 13:10: I had (R!) code that would pull all the SAS code chunks out of my (modified) lecture notes! Hence, [up-to-date SAS lecture code](sas_lecture_code.sas).
 
 - 2019-11-11 13:00: the [SAS slides](slides-sas.pdf) are updated. Now I have to figure out how to get hold of the SAS code!
