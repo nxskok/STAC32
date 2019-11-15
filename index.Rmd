@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-15 12:40: there is no assignment due next week, so there are *no tutorials* next week either. I will be in my office if you need me for anything. Concerning the following week: I imagine that on November 27 you will be working on your projects, so we will in BV 498 as usual on that day. 
+
+- 2019-11-15 12:30: [PASI-SAS](pasi-sas.pdf) updated, with proper section headings. Let me know of anything in there that is still confusing.
+
 - 2019-11-15 11:45: we have covered a lot of ground in SAS this week. This means you can tackle the problems in sections 3, 4, and 5 of [PASI-SAS](pasi-sas.pdf). I have some editing to do in PASI-SAS: I have to give the sections less dopey names, and in one or two places it says "hand in the next problem", which you should ignore.
 
 - 2019-11-15 11:30: because it's the last assignment (and I feel like being a nice guy), I'll accept any assignments that reach Quercus by *4:00pm today*. My solutions will probably go up sometime Saturday.
