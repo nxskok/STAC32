@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-17 12:45: with my customary lateness, here are [my solutions to assignment 8](a8.pdf). 
+
 - 2019-11-15 12:40: there is no assignment due next week, so there are *no tutorials* next week either. I will be in my office if you need me for anything. Concerning the following week: I imagine that on November 27 you will be working on your projects, so we will in BV 498 as usual on that day. 
 
 - 2019-11-15 12:30: [PASI-SAS](pasi-sas.pdf) updated, with proper section headings. Let me know of anything in there that is still confusing.
