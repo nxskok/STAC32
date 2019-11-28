@@ -16,9 +16,14 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-11-28 15:10: I forgot to remind you to fill out a course evaluation for our course. There are a number of reasons to do so:
+  - to help yourself: reflecting on your experience in the course will help you to get more out of it
+  - to help students who come after you: the comment you make will help to make this a better course in the future
+  - to help me: if you really liked (or disliked) the course, what you say will have an impact on my departmental review next year. 
+
 - 2019-11-25 15:45: looking further ahead still: our final exam is December 19, in the afternoon. Look out for some office hours on the 17th or 18th. I will announce some times closer to the date. I am likely also around before then.
 
-- 2019-11-25 15:30: Stuff from [PASI-SAS](pasi.sas.pdf) to look at: section 8 on ANOVA, problems 9.2-10.3 on ANOVA and Mood's median test, problem 10.4 on selection of rows and columns, problem 10.5 on tidying data, problem 10.6 and section 11 on regression. I have to reorganize my section headings. Looking further ahead, section 12 is on regression with categorical variables (which I will get to on Thursday) and section 13 is on dates and times and other miscellaneous stuff, which I probably won't.
+- 2019-11-25 15:30: Stuff from [PASI-SAS](pasi.sas.pdf) to look at: section 8 on ANOVA, problems 9.2-10.3 on ANOVA and Mood's median test, problem 10.4 on selection of rows and columns, problem 10.5 on tidying data, problem 10.6 and section 11 on regression. I have to reorganize my section headings. Looking further ahead, section 12 is on regression with categorical variables (which I will get to on Thursday) and section 13 is on dates and times and other miscellaneous stuff, which I probably won't get to.
 
 - 2019-11-26 13:00: for this week, we look at data tidying in SAS, plus our regression case study.
 
