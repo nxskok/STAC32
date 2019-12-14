@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-13 20:30: there will be pre-exam office hours next week: Wednesday afternoon, and either Monday afternoon or Tuesday morning, depending how the weekend works out.
+
 - 2019-12-09 16:30: I am happy with your exam: 8 questions on 12 pages (plus a blank page in case you need extra space), 111 points. Four questions on R and four on SAS.
 
 - 2019-12-05 17:45: the project grades are up. Everyone in a group should have the same mark; if your mark is different from the others in your group, or is missing and your group handed something in, let me know by email with your name and student number, and the name of the person who handed the work in (so that I can match you with the correct group). 
