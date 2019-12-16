@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-14 21:00: scheduled times for pre-exam office hours (in my office): Monday 16th, 2:00-4:00; Wednesday 18th 2:30-4:30.
+
 - 2019-12-13 20:30: there will be pre-exam office hours next week: Wednesday afternoon, and either Monday afternoon or Tuesday morning, depending how the weekend works out.
 
 - 2019-12-09 16:30: I am happy with your exam: 8 questions on 12 pages (plus a blank page in case you need extra space), 111 points. Four questions on R and four on SAS.
