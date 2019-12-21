@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-21 13:30: 7(f) done. There were some approaches I wasn't expecting, that I discuss in [my solutions](final.pdf).
+
 - 2019-12-21 12:40: 7(e) is done. Pretty fast, but it took me a while to get started.
 
 - 2019-12-20 22:45: 7(d) is done, which is all my brain can manage tonight. Also, updated [solutions](final.pdf), with a bit of pre-emptive extra for 7(e). I'll start with that tomorrow, hoping that most of you will get a fast one mark for that.
