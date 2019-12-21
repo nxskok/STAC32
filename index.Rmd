@@ -16,7 +16,9 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
-- 2019-12-20 17:50: 7(c) is done. I'm going home. More later, but there needs to be dinner first.
+- 2019-12-20 22:45: 7(d) is done, which is all my brain can manage tonight. Also, updated [solutions](final.pdf), with a bit of pre-emptive extra for 7(e). I'll start with that tomorrow, hoping that most of you will get a fast one mark for that.
+
+- 2019-12-20 17:50: 7(c) is done. I'm going home. More later, but there needs to be dinner first. 
 
 - 2019-12-20 17:00: update: Aasha has graded question 1 (apart from (e), which I am doing) and 3(a). Bo is working on question 2. I am working on 7(c) right now (it's been a slow day). On your exam (when you get it), you will see either comments explaining what was missing, or annotation of what was right and what was not, or at the very least a mark, and you'll be able to see in the [solutions](final.pdf) how many marks there were for what.
 
