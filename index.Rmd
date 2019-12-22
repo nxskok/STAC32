@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-22 11:00: 4(b) done (I wanted to start with a fast one).
+
 - 2019-12-21 22:55: question 3 done. Now playing: [The Enid](https://www.youtube.com/watch?v=CdU5MQKDXsk). I first heard this on a Friday night heavy metal radio show (though it's not exactly heavy metal) in about 1983. I was blown away by it then, and still am. I can feel myself slowing down, so I think I stop there for tonight. Questions 4, 5, 6 and 8 to go. I'll start with question 4 tomorrow, which is lots of R coding, so ought to go fast.
 
 - 2019-12-21 21:45: 3(b) done (working backwards). May be a late night tonight. On to 3(d). Now playing: Alberic Magnard's Symphony No. 5. (I seem to need music to keep myself going.)
