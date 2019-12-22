@@ -16,6 +16,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-21 21:45: 3(b) done (working backwards). May be a late night tonight.
+
+- 2019-12-21 19:30: I finished the rest of 3(c). Now I really *do* need dinner.
+
 - 2019-12-21 19:10: the Mood median test from 3(c) checked (fast work). I need dinner now, and then will work on the code for the ANOVAs.
 
 - 2019-12-21 17:45: I finally made it through question 7. I think I need to find some nice simple code to mark next; 7(g) was hard work (and a lot of half points). There may also have been a ukulele break in the middle. I am currently trying to play along with [this](https://www.youtube.com/watch?v=BWFeUNyfpmM), which has a lot of funky minor chords (F minor hurts my fingers).
