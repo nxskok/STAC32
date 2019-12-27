@@ -16,6 +16,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-27 17:10: happy new year to everyone!
+
 - 2019-12-27 17:00: course grades are submitted:
   - you are eligible to pass the course if you got 42% (47/111) or more on the final exam. If not, and your other marks would have gotten you over 50, you get 45. I looked again at the final exams that scored less than this, and they did not display enough knowledge to pass the course. (This happened to two people.)
   - I don't give grades one below a letter-grade boundary. For example, if you get 79.6, it gets rounded up to 80, A-, but if you get 79.4, it gets rounded *down* to 78, B+.
