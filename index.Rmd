@@ -16,6 +16,17 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
+- 2019-12-27 17:00: course grades are submitted:
+  - you are eligible to pass the course if you got 42% (47/111) or more on the final exam. If not, and your other marks would have gotten you over 50, you get 45. I looked again at the final exams that scored less than this, and they did not display enough knowledge to pass the course. (This happened to two people.)
+  - I don't give grades one below a letter-grade boundary. For example, if you get 79.6, it gets rounded up to 80, A-, but if you get 79.4, it gets rounded *down* to 78, B+.
+  - If you are taking D29 next semester and you got less than about 60 in this course, be aware that you will find D29 hard work. 
+  - If you think you have been treated unjustly, consult the Registrar's office, who will tell you what you can do.
+  - There were, I think, six A+ grades. If you got one of them, congratulations!
+
+- 2019-12-27 12:30: eating lunch before I tackle the course grades.
+
+- 2019-12-27 12:25: final exam grades are up on Quercus. There were some really good exams. If you don't like your exam mark, *do not complain or appeal to me*. I have also just sent you your marked exam (look for an email from Crowdmark). Read it through with [my solutions](final.pdf) to see why you got the mark you did.
+
 - 2019-12-27 11:45: I am finally done grading. I've been sitting in the downtown reference library grading 8(e). This was the hardest question on the entire exam, but I think the marks on it reflect how far you got towards a complete solution.
 
 Next:
