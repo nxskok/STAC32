@@ -17,6 +17,7 @@ Year  | Exam                          | Figures                         | Soluti
 2016  | [exam](midterm-20169-q.pdf)  | [figures](midterm-20169-f.pdf)   | [solutions](midterm-20169-s.pdf) |
 2017  | [exam](midterm-20179-q.pdf)  | [figures](midterm-20179-f.pdf)   | [solutions](midterm-20179-s.pdf) |
 2018  | [exam](midterm-20189-q.pdf)  | [figures](midterm-20189-f.pdf)   | [solutions](midterm-20189-s.pdf) |
+2018  | [exam](midterm-20199-q.pdf)  | [figures](midterm-20199-f.pdf)   | [solutions](midterm-20199-s.pdf) |
 
 
 ## Old final exams
