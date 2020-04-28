@@ -6,7 +6,6 @@ title: "STAC32"
 
 ## Ken Butler
 
-![bad picture](ken.jpg){width=400px}
 
 Welcome to the home page for STAC32. This is the place to look for all things course-related (notes, assignments, announcements etc., linked above) except for assignment hand-ins and marks, which will be on [Quercus](http://q.utoronto.ca).
 
@@ -16,7 +15,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News
 
-- 2019-12-27 17:10: happy new year to everyone!
+- 2019-12-27 17:10: happy new year to everyone! 
 
 - 2019-12-27 17:00: course grades are submitted (edited Dec 28 12:30):
   - you are eligible to pass the course if you got 42% (47/111) or more on the final exam. If not, and your other marks would have gotten you over 50, you get 45. I looked again at the final exams that scored less than this, and they did not display enough knowledge to pass the course. (This happened to two people.)
@@ -415,4 +414,3 @@ This is a thing called an HTMLwidget, which means I just need to include the R c
   - tutorials start in *week 1*. In the first tutorial you will work on ["Assignment 0"](https://www.utsc.utoronto.ca/~butler/assgt_data/a0.pdf).
   - office hours in IC 471 after class on Tuesday (14:00-15:30) and before class on Thursday (10:30-11:30).
   - course outline in first few pages of [here](http://ritsokiguess.site/STAC32/slides_c32.pdf). When you come to the first lecture, you will learn why I arrange things as I do.
-- 2019-08-26 13:30: Welcome to STAC32! This website should now be live. Let me know if anything is not working.
