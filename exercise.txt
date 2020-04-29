@@ -1,3 +1,4 @@
+gender  minutes
 female   60
 female  240
 female    0
