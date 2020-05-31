@@ -29,3 +29,6 @@ navbar:
       href: http://ritsokiguess.site/home/courses.html
     - text: "Ken Butler home"
       href: http://ritsokiguess.site/home
+output:
+  html_document:
+    theme: flatly
