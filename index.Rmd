@@ -6,6 +6,7 @@ title: "STAC32"
 
 ## Ken Butler
 
+![bad picture](ken.jpg)
 
 Welcome to the home page for STAC32. This is the place to look for all things course-related (notes, assignments, announcements etc., linked above) except for assignment hand-ins and marks, which will be on [Quercus](http://q.utoronto.ca).
 
