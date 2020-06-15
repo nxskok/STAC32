@@ -11,7 +11,12 @@ navbar:
           href: "notes.html"
         - text: "SAS lecture notes"
           href: "slides-sas.pdf"
-    - text: "Lecture code (fill in later)"
+    - text: "Lecture code"
+      menu: 
+        - text: R code
+          href: "R-code.html"
+        - text: SAS code
+          href: "SAS-code.html"
       href: code.html
     - text: "Quercus"
       href: http://q.utoronto.ca
