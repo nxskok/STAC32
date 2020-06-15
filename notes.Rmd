@@ -1,4 +1,9 @@
 # Lecture notes
+---
+title: "Lecture notes"
+---
+
+# The slides
 
 - [All the slides](c32_all_slides.pdf)
 - By video:

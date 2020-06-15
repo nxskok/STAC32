@@ -1,8 +1,0 @@
----
-title: "And another thing"
----
-
-You won't believe this ancient trick.
-
-
-![](train.jpg)
