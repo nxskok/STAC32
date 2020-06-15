@@ -12,7 +12,7 @@ Welcome to the home page for STAC32. This is the place to look for all things co
 
 In this course, we learn R (and later SAS), and how to use this software for data organization and to apply statistical methods that you (mostly) already know.
 
-This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future.
+This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future. 
 
 ## News
 
@@ -22,6 +22,6 @@ This is an applied course. Expect to be describing the process by which you got 
    - Tutorials will be "synchronous": some TAs and I will be available at a certain time, likely on BB Collaborate on Quercus. You will have a chance to work on problems/assignments and ask questions, and will be able to share your screen so that we can see what's going on for you. BB Collaborate also has a chat that you can use, though in my opinion a two-way live communication is better for learning. (BB Collaborate is, as I write, new to me, so we may be learning together!) For this, you will do best to have access to a microphone, speakers/headphones and a camera so that we can see and hear you, and you can see and hear us. I will also have office hours, run the same way, plus email.
    - Assignments will be set up on Crowdmark and handed in as files that you create, with your code, output and written (well, typed) answers. I will show you in week 1 how to do this. There will be assignments most weeks, and you will have about a week to do each one.
    - My current thinking for exams is to have them be "take-home", that is, they look like harder and more strictly-timed assignments. (Something like three hours to complete a midterm that is two hours of work, and 4 hours to complete a final that is three hours of work.) If you have an accommodation from Accessability, you get extra time as usual. My exams have always been open-book, and that is not going to change.
-   - I'm still thinking about the relative weight of these pieces in determining your grade. I might down-weight the exams compared to my usual (before-times) practice. 
+   - I'm still thinking about the relative weight of these pieces in determining your grade. I might down-weight the exams compared to my before-times practice. 
     
     

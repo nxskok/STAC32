@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Case study 3: Asphalt</title>
+
+<script src="site_libs/header-attrs-2.2/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STAC32</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lecture notes and code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="notes.html">R lecture notes</a>
+    </li>
+    <li>
+      <a href="slides-sas.pdf">SAS lecture notes</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="http://q.utoronto.ca">Quercus</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/pasias">PASIAS</a>
+</li>
+<li>
+  <a href="pasi-sas.pdf">PASI-SAS</a>
+</li>
+<li>
+  <a href="old_exams.html">Old exams</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home/courses.html">Ken's other courses</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home">Ken Butler home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Case study 3: Asphalt</h1>
+<h4 class="author"></h4>
+
+</div>
+
+
+<div id="the-asphalt-data" class="section level2">
+<h2>The asphalt data</h2>
+<ul>
+<li>31 asphalt pavements prepared under different conditions. How does quality of pavement depend on these?</li>
+<li>Variables:
+<ul>
+<li><code>pct.a.surf</code> The percentage of asphalt in the surface layer</li>
+<li><code>pct.a.base</code> The percentage of asphalt in the base layer</li>
+<li><code>fines</code> The percentage of fines in the surface layer</li>
+<li><code>voids</code> The percentage of voids in the surface layer</li>
+<li><code>rut.depth</code> The change in rut depth per million vehicle passes</li>
+<li><code>viscosity</code> The viscosity of the asphalt</li>
+<li><code>run</code> 2 data collection periods: run 1 for run 1, 0 for run 2.</li>
+</ul></li>
+<li><code>rut.depth</code> response. Depends on other variables, how?</li>
+</ul>
+</div>
+<div id="packages-for-this-section" class="section level2">
+<h2>Packages for this section</h2>
+<pre class="r"><code>library(MASS)
+library(tidyverse)
+library(broom)
+library(leaps)</code></pre>
+</div>
+<div id="getting-set-up" class="section level2">
+<h2>Getting set up</h2>
+<pre class="r"><code>my_url &lt;- &quot;http://www.utsc.utoronto.ca/~butler/c32/asphalt.txt&quot;
+asphalt &lt;- read_delim(my_url, &quot; &quot;)</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   pct.a.surf = col_double(),
+##   pct.a.base = col_double(),
+##   fines = col_double(),
+##   voids = col_double(),
+##   rut.depth = col_double(),
+##   viscosity = col_double(),
+##   run = col_double()
+## )</code></pre>
+<ul>
+<li>Quantitative variables with one response: multiple regression.</li>
+<li>Some issues here that don’t come up in “simple” regression; handle as we go. (STAB27/STAC67 ideas.)</li>
+</ul>
+</div>
+<div id="the-data-some" class="section level2">
+<h2>The data (some)</h2>
+<pre class="r"><code>asphalt</code></pre>
+<pre><code>## # A tibble: 31 x 7
+##    pct.a.surf pct.a.base fines voids rut.depth
+##         &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;
+##  1       4.68       4.87   8.4  4.92      6.75
+##  2       5.19       4.5    6.5  4.56     13   
+##  3       4.82       4.73   7.9  5.32     14.8 
+##  4       4.85       4.76   8.3  4.86     12.6 
+##  5       4.86       4.95   8.4  3.78      8.25
+##  6       5.16       4.45   7.4  4.40     10.7 
+##  7       4.82       5.05   6.8  4.87      7.28
+##  8       4.86       4.7    8.6  4.83     12.7 
+##  9       4.78       4.84   6.7  4.86     12.6 
+## 10       5.16       4.76   7.7  4.03     20.6 
+## # … with 21 more rows, and 2 more variables:
+## #   viscosity &lt;dbl&gt;, run &lt;dbl&gt;</code></pre>
+</div>
+<div id="plotting-response-rut-depth-against-everything-else" class="section level2">
+<h2>Plotting response “rut depth” against everything else</h2>
+<p>Same idea as for plotting separate predictions on one plot:</p>
+<pre class="r"><code>asphalt %&gt;%
+  pivot_longer(
+    -rut.depth,
+    names_to=&quot;xname&quot;, values_to=&quot;x&quot;
+  ) %&gt;%
+  ggplot(aes(x = x, y = rut.depth)) + geom_point() +
+  facet_wrap(~xname, scales = &quot;free&quot;) -&gt; g</code></pre>
+<p>“collect all the x-variables together into one column called x, with another column xname saying which x they were, then plot these x’s against rut.depth, a separate facet for each x-variable.”</p>
+<p>I saved this graph to plot later (on the next page).</p>
+</div>
+<div id="the-plot" class="section level2">
+<h2>The plot</h2>
+<pre class="r"><code>g</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-8-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="interpreting-the-plots" class="section level2">
+<h2>Interpreting the plots</h2>
+<ul>
+<li>One plot of rut depth against each of the six other variables.</li>
+<li>Get rough idea of what’s going on.</li>
+<li>Trends mostly weak.</li>
+<li><code>viscosity</code> has strong but non-linear trend.</li>
+<li><code>run</code> has effect but variability bigger when run is 1.</li>
+<li>Weak but downward trend for <code>voids</code>.</li>
+<li>Non-linearity of <code>rut.depth</code>-<code>viscosity</code> relationship should concern us.</li>
+<li>Take this back to asphalt engineer: suggests log of <code>viscosity</code>:</li>
+</ul>
+<pre class="r"><code>ggplot(asphalt, aes(y = rut.depth, x = log(viscosity))) +
+  geom_point() + geom_smooth(se = F)</code></pre>
+<p>(plot overleaf)</p>
+</div>
+<div id="rut-depth-against-log-viscosity" class="section level2">
+<h2>Rut depth against log-viscosity</h2>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-9-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="comments-and-next-steps" class="section level2">
+<h2>Comments and next steps</h2>
+<ul>
+<li>Not very linear, but better than before.</li>
+<li>In multiple regression, hard to guess which x’s affect response. So typically start by predicting from everything else.</li>
+<li>Model formula has response on left, squiggle, explanatories on right joined by plusses:</li>
+</ul>
+<pre class="r"><code>rut.1 &lt;- lm(rut.depth ~ pct.a.surf + pct.a.base + fines +
+  voids + log(viscosity) + run, data = asphalt)</code></pre>
+</div>
+<div id="regression-output-summaryrut.1-or" class="section level2">
+<h2>Regression output: <code>summary(rut.1)</code> or:</h2>
+<pre class="r"><code>glance(rut.1)</code></pre>
+<pre><code>## # A tibble: 1 x 11
+##   r.squared adj.r.squared sigma statistic p.value
+##       &lt;dbl&gt;         &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
+## 1     0.806         0.758  3.32      16.6 1.74e-7
+## # … with 6 more variables: df &lt;int&gt;, logLik &lt;dbl&gt;,
+## #   AIC &lt;dbl&gt;, BIC &lt;dbl&gt;, deviance &lt;dbl&gt;,
+## #   df.residual &lt;int&gt;</code></pre>
+<pre class="r"><code>tidy(rut.1)</code></pre>
+<pre><code>## # A tibble: 7 x 5
+##   term          estimate std.error statistic p.value
+##   &lt;chr&gt;            &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;
+## 1 (Intercept)    -13.0      26.2      -0.496 0.625  
+## 2 pct.a.surf       3.97      2.50      1.59  0.125  
+## 3 pct.a.base       1.26      3.97      0.318 0.753  
+## 4 fines            0.116     1.01      0.115 0.909  
+## 5 voids            0.589     1.32      0.445 0.660  
+## 6 log(viscosit…   -3.15      0.919    -3.43  0.00220
+## 7 run             -1.97      3.65     -0.539 0.595</code></pre>
+</div>
+<div id="comments" class="section level2">
+<h2>Comments</h2>
+<ul>
+<li>R-squared 81%, not so bad.</li>
+<li>P-value in <code>glance</code> asserts that something helping to predict rut.depth.</li>
+<li>Table of coefficients says <code>log(viscosity)</code>.</li>
+<li>But confused by clearly non-significant variables: remove those to get clearer picture of what is helpful.</li>
+<li>Before we do anything, look at residual plots:
+<ul>
+<li><ol style="list-style-type: lower-alpha">
+<li>of residuals against fitted values (as usual)</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: lower-alpha">
+<li>of residuals against each explanatory.</li>
+</ol></li>
+</ul></li>
+<li>Problem fixes:
+<ul>
+<li>with (a): fix response variable;</li>
+<li>with some plots in (b): fix those explanatory variables.</li>
+</ul></li>
+</ul>
+</div>
+<div id="plot-fitted-values-against-residuals" class="section level2">
+<h2>Plot fitted values against residuals</h2>
+<pre class="r"><code>ggplot(rut.1, aes(x = .fitted, y = .resid)) + geom_point()</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-12-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="plotting-residuals-against-x-variables" class="section level2">
+<h2>Plotting residuals against <span class="math inline">\(x\)</span> variables</h2>
+<ul>
+<li>Problem here is that residuals are in the fitted model, and the observed <span class="math inline">\(x\)</span>-values are in the original data frame <code>asphalt</code>.</li>
+<li>Package broom contains a function <code>augment</code> that combines these two together so that they can later be plotted: start with a model first, and then augment with a data frame:</li>
+</ul>
+<pre class="r"><code>rut.1 %&gt;% augment(asphalt) -&gt; rut.1a</code></pre>
+</div>
+<div id="what-does-rut.1a-contain" class="section level2">
+<h2>What does rut.1a contain?</h2>
+<pre class="r"><code>names(rut.1a)</code></pre>
+<pre><code>##  [1] &quot;pct.a.surf&quot; &quot;pct.a.base&quot; &quot;fines&quot;     
+##  [4] &quot;voids&quot;      &quot;rut.depth&quot;  &quot;viscosity&quot; 
+##  [7] &quot;run&quot;        &quot;.fitted&quot;    &quot;.se.fit&quot;   
+## [10] &quot;.resid&quot;     &quot;.hat&quot;       &quot;.sigma&quot;    
+## [13] &quot;.cooksd&quot;    &quot;.std.resid&quot;</code></pre>
+<ul>
+<li>all the stuff in original data frame, plus:</li>
+<li>quantities from regression (starting with a dot)</li>
+</ul>
+</div>
+<div id="plotting-residuals-against-x-variables-1" class="section level2">
+<h2>Plotting residuals against <span class="math inline">\(x\)</span>-variables</h2>
+<pre class="r"><code>rut.1a %&gt;%
+  mutate(log_vis=log(viscosity)) %&gt;% 
+  pivot_longer(
+    c(pct.a.surf:voids, run, log_vis),
+    names_to=&quot;xname&quot;, values_to=&quot;x&quot;
+  ) %&gt;%
+  ggplot(aes(x = x, y = .resid)) +
+  geom_point() + facet_wrap(~xname, scales = &quot;free&quot;) -&gt; g</code></pre>
+</div>
+<div id="the-plot-1" class="section level2">
+<h2>The plot</h2>
+<pre class="r"><code>g</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-17-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="comments-1" class="section level2">
+<h2>Comments</h2>
+<ul>
+<li>There is serious curve in plot of residuals vs. fitted values. Suggests a transformation of <span class="math inline">\(y\)</span>.</li>
+<li>The residuals-vs-<span class="math inline">\(x\)</span>’s plots don’t show any serious trends. Worst probably that potential curve against log-viscosity.</li>
+<li>Also, large positive residual, 10, that shows up on all plots. Perhaps transformation of <span class="math inline">\(y\)</span> will help with this too.</li>
+<li>If residual-fitted plot OK, but some residual-<span class="math inline">\(x\)</span> plots not, try transforming those <span class="math inline">\(x\)</span>’s, eg. by adding <span class="math inline">\(x^2\)</span> to help with curve.</li>
+</ul>
+</div>
+<div id="which-transformation" class="section level2">
+<h2>Which transformation?</h2>
+<ul>
+<li>Best way: consult with person who brought you the data.</li>
+<li>Can’t do that here!</li>
+<li>No idea what transformation would be good.</li>
+<li>Let data choose: “Box-Cox transformation”.</li>
+<li>Scale is that of “ladder of powers”: power transformation, but 0 is log.</li>
+</ul>
+</div>
+<div id="running-box-cox" class="section level2">
+<h2>Running Box-Cox</h2>
+<p>From package <code>MASS</code>:</p>
+<pre class="r"><code>boxcox(rut.depth ~ pct.a.surf + pct.a.base + fines + voids +
+  log(viscosity) + run, data = asphalt)</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-18-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="comments-on-box-cox-plot" class="section level2">
+<h2>Comments on Box-Cox plot</h2>
+<ul>
+<li><span class="math inline">\(\lambda\)</span> represents power to transform <span class="math inline">\(y\)</span> with.</li>
+<li>Best single choice of transformation parameter <span class="math inline">\(\lambda\)</span> is peak of curve, close to 0.</li>
+<li>Vertical dotted lines give CI for <span class="math inline">\(\lambda\)</span>, about (−0.05, 0.2).</li>
+<li><span class="math inline">\(\lambda = 0\)</span> means “log”.</li>
+<li>Narrowness of confidence interval mean that these not supported by data:
+<ul>
+<li>No transformation (<span class="math inline">\(\lambda = 1\)</span>)</li>
+<li>Square root (<span class="math inline">\(\lambda = 0.5\)</span>)</li>
+<li>Reciprocal (<span class="math inline">\(\lambda = −1\)</span>).</li>
+</ul></li>
+</ul>
+</div>
+<div id="relationships-with-explanatories" class="section level2">
+<h2>Relationships with explanatories</h2>
+<ul>
+<li>As before: plot response (now <code>log(rut.depth)</code>) against other explanatory variables, all in one shot:</li>
+</ul>
+<pre class="r"><code>asphalt %&gt;%
+  mutate(log_vis=log(viscosity)) %&gt;% 
+  pivot_longer(
+    c(pct.a.surf:voids, run, log_vis),
+    names_to=&quot;xname&quot;, values_to=&quot;x&quot;
+  ) %&gt;%
+  ggplot(aes(y = log(rut.depth), x = x)) + geom_point() +
+  facet_wrap(~xname, scales = &quot;free&quot;) -&gt; g3</code></pre>
+</div>
+<div id="the-new-plots" class="section level2">
+<h2>The new plots</h2>
+<pre class="r"><code>g3</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-20-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="modelling-with-transformed-response" class="section level2">
+<h2>Modelling with transformed response</h2>
+<ul>
+<li>These trends look pretty straight, especially with <code>log.viscosity</code>.</li>
+<li>Values of <code>log.rut.depth</code> for each <code>run</code> have same spread.</li>
+<li>Other trends weak, but are straight if they exist.</li>
+<li>Start modelling from the beginning again.</li>
+<li>Model <code>log.rut.depth</code> in terms of everything else, see what can be removed:</li>
+</ul>
+<pre class="r"><code>rut.2 &lt;- lm(log(rut.depth) ~ pct.a.surf + pct.a.base +
+  fines + voids + log(viscosity) + run, data = asphalt)</code></pre>
+<ul>
+<li>use <code>tidy</code> from <code>broom</code> to display just the coefficients.</li>
+</ul>
+</div>
+<div id="output" class="section level2">
+<h2>Output</h2>
+<pre class="r"><code>tidy(rut.2)</code></pre>
+<pre><code>## # A tibble: 7 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 (Intercept)  -1.57      2.44      -0.646   5.25e-1
+## 2 pct.a.surf    0.584     0.232      2.52    1.90e-2
+## 3 pct.a.base   -0.103     0.369     -0.280   7.82e-1
+## 4 fines         0.0978    0.0941     1.04    3.09e-1
+## 5 voids         0.199     0.123      1.62    1.19e-1
+## 6 log(viscos…  -0.558     0.0854    -6.53    9.45e-7
+## 7 run           0.340     0.339      1.00    3.26e-1</code></pre>
+</div>
+<div id="taking-out-everything-non-significant" class="section level2">
+<h2>Taking out everything non-significant</h2>
+<ul>
+<li>Try: remove everything but pct.a.surf and log.viscosity:</li>
+</ul>
+<pre class="r"><code>rut.3 &lt;- lm(log(rut.depth) ~ pct.a.surf + log(viscosity), data = asphalt)</code></pre>
+<ul>
+<li>Check that removing all those variables wasn’t too much:</li>
+</ul>
+<pre class="r"><code>anova(rut.3, rut.2)</code></pre>
+<pre><code>## Analysis of Variance Table
+## 
+## Model 1: log(rut.depth) ~ pct.a.surf + log(viscosity)
+## Model 2: log(rut.depth) ~ pct.a.surf + pct.a.base + fines + voids + log(viscosity) + 
+##     run
+##   Res.Df    RSS Df Sum of Sq      F Pr(&gt;F)
+## 1     28 2.8809                           
+## 2     24 2.2888  4   0.59216 1.5523 0.2191</code></pre>
+<ul>
+<li><span class="math inline">\(H_0\)</span> : two models equally good; <span class="math inline">\(H_a\)</span> : bigger model better.</li>
+<li>Null not rejected here; small model as good as the big one, so prefer simpler smaller model <code>rut.3</code>.</li>
+</ul>
+</div>
+<div id="find-the-largest-p-value-by-eye" class="section level2">
+<h2>Find the largest P-value by eye:</h2>
+<pre class="r"><code>tidy(rut.2)</code></pre>
+<pre><code>## # A tibble: 7 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 (Intercept)  -1.57      2.44      -0.646   5.25e-1
+## 2 pct.a.surf    0.584     0.232      2.52    1.90e-2
+## 3 pct.a.base   -0.103     0.369     -0.280   7.82e-1
+## 4 fines         0.0978    0.0941     1.04    3.09e-1
+## 5 voids         0.199     0.123      1.62    1.19e-1
+## 6 log(viscos…  -0.558     0.0854    -6.53    9.45e-7
+## 7 run           0.340     0.339      1.00    3.26e-1</code></pre>
+<ul>
+<li>Largest P-value is 0.78 for <code>pct.a.base</code>, not significant.</li>
+<li>So remove this first, re-fit and re-assess.</li>
+<li>Or, as over.</li>
+</ul>
+</div>
+<div id="get-the-computer-to-find-the-largest-p-value-for-you" class="section level2">
+<h2>Get the computer to find the largest P-value for you</h2>
+<ul>
+<li>Output from <code>tidy</code> is itself a data frame, thus:</li>
+</ul>
+<pre class="r"><code>tidy(rut.2) %&gt;% arrange(p.value)</code></pre>
+<pre><code>## # A tibble: 7 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 log(viscos…  -0.558     0.0854    -6.53    9.45e-7
+## 2 pct.a.surf    0.584     0.232      2.52    1.90e-2
+## 3 voids         0.199     0.123      1.62    1.19e-1
+## 4 fines         0.0978    0.0941     1.04    3.09e-1
+## 5 run           0.340     0.339      1.00    3.26e-1
+## 6 (Intercept)  -1.57      2.44      -0.646   5.25e-1
+## 7 pct.a.base   -0.103     0.369     -0.280   7.82e-1</code></pre>
+<ul>
+<li>Largest P-value at the bottom.</li>
+</ul>
+</div>
+<div id="take-out-pct.a.base" class="section level2">
+<h2>Take out <code>pct.a.base</code></h2>
+<ul>
+<li>Copy and paste the <code>lm</code> code and remove what you’re removing:</li>
+</ul>
+<pre class="r"><code>rut.4 &lt;- lm(log(rut.depth) ~ pct.a.surf + fines + voids + 
+              log(viscosity) + run, data = asphalt)
+tidy(rut.4) %&gt;% arrange(p.value)</code></pre>
+<pre><code>## # A tibble: 6 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 log(viscos…  -0.552     0.0818     -6.75   4.48e-7
+## 2 pct.a.surf    0.593     0.225       2.63   1.43e-2
+## 3 voids         0.200     0.121       1.66   1.09e-1
+## 4 (Intercept)  -2.08      1.61       -1.29   2.08e-1
+## 5 run           0.360     0.325       1.11   2.79e-1
+## 6 fines         0.0889    0.0870      1.02   3.16e-1</code></pre>
+<ul>
+<li><code>fines</code> is next to go, P-value 0.32.</li>
+</ul>
+</div>
+<div id="update" class="section level2">
+<h2>“Update”</h2>
+<p>Another way to do the same thing:</p>
+<pre class="r"><code>rut.4 &lt;- update(rut.2, . ~ . - pct.a.base)
+tidy(rut.4) %&gt;% arrange(p.value)</code></pre>
+<pre><code>## # A tibble: 6 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 log(viscos…  -0.552     0.0818     -6.75   4.48e-7
+## 2 pct.a.surf    0.593     0.225       2.63   1.43e-2
+## 3 voids         0.200     0.121       1.66   1.09e-1
+## 4 (Intercept)  -2.08      1.61       -1.29   2.08e-1
+## 5 run           0.360     0.325       1.11   2.79e-1
+## 6 fines         0.0889    0.0870      1.02   3.16e-1</code></pre>
+<ul>
+<li>Again, fines is the one to go. (Output identical as it should be.)</li>
+</ul>
+</div>
+<div id="take-out-fines" class="section level2">
+<h2>Take out fines:</h2>
+<pre class="r"><code>rut.5 &lt;- update(rut.4, . ~ . - fines)
+tidy(rut.5) %&gt;% arrange(p.value)</code></pre>
+<pre><code>## # A tibble: 5 x 5
+##   term        estimate std.error statistic   p.value
+##   &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;
+## 1 log(viscos…   -0.580    0.0772    -7.52    5.59e-8
+## 2 pct.a.surf     0.548    0.221      2.48    2.00e-2
+## 3 voids          0.232    0.117      1.99    5.77e-2
+## 4 run            0.295    0.319      0.923   3.65e-1
+## 5 (Intercept)   -1.26     1.39      -0.902   3.75e-1</code></pre>
+<p>Can’t take out intercept, so <code>run</code>, with P-value 0.36, goes next.</p>
+</div>
+<div id="take-out-run" class="section level2">
+<h2>Take out run:</h2>
+<pre class="r"><code>rut.6 &lt;- update(rut.5, . ~ . - run)
+tidy(rut.6) %&gt;% arrange(p.value)</code></pre>
+<pre><code>## # A tibble: 4 x 5
+##   term         estimate std.error statistic  p.value
+##   &lt;chr&gt;           &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 log(viscosi…   -0.646    0.0288   -22.5   5.29e-19
+## 2 pct.a.surf      0.555    0.220      2.52  1.80e- 2
+## 3 voids           0.245    0.116      2.12  4.36e- 2
+## 4 (Intercept)    -1.02     1.36      -0.748 4.61e- 1</code></pre>
+<p>Again, can’t take out intercept, so largest P-value is for <code>voids</code>, 0.044. But this is significant, so we shouldn’t remove <code>voids</code>.</p>
+</div>
+<div id="comments-2" class="section level2">
+<h2>Comments</h2>
+<ul>
+<li>Here we stop: <code>pct.a.surf</code>, <code>voids</code> and <code>log.viscosity</code> would all make fit significantly worse if removed. So they stay.</li>
+<li>Different final result from taking things out one at a time (top), than by taking out 4 at once (bottom):</li>
+</ul>
+<pre class="r"><code>coef(rut.6)</code></pre>
+<pre><code>##    (Intercept)     pct.a.surf          voids 
+##     -1.0207945      0.5554686      0.2447934 
+## log(viscosity) 
+##     -0.6464911</code></pre>
+<pre class="r"><code>coef(rut.3)</code></pre>
+<pre><code>##    (Intercept)     pct.a.surf log(viscosity) 
+##      0.9001389      0.3911481     -0.6185628</code></pre>
+<ul>
+<li>Point: Can make difference which way we go.</li>
+</ul>
+</div>
+<div id="comments-on-variable-selection" class="section level2">
+<h2>Comments on variable selection</h2>
+<ul>
+<li>Best way to decide which <span class="math inline">\(x\)</span>’s belong: expert knowledge: which of them should be important.</li>
+<li>Best automatic method: what we did, “backward selection”.</li>
+<li>Do not learn about “stepwise regression”! <a href="https://towardsdatascience.com/stopping-stepwise-why-stepwise-selection-is-bad-and-what-you-should-use-instead-90818b3f52df"><strong>eg. here</strong></a></li>
+<li>R has function <code>step</code> that does backward selection, like this:</li>
+</ul>
+<pre class="r"><code>step(rut.2, direction = &quot;backward&quot;, test = &quot;F&quot;)</code></pre>
+<p>Gets same answer as we did (by removing least significant x).</p>
+<ul>
+<li>Removing non-significant <span class="math inline">\(x\)</span>’s may remove interesting ones whose P-values happened not to reach 0.05. Consider using less stringent cutoff like 0.20 or even bigger.</li>
+<li>Can also fit all possible regressions, as over (may need to do <code>install.packages("leaps")</code> first).</li>
+</ul>
+</div>
+<div id="all-possible-regressions-output-over" class="section level2">
+<h2>All possible regressions (output over)</h2>
+<p>Uses package <code>leaps</code>:</p>
+<pre class="r"><code>leaps &lt;- regsubsets(log(rut.depth) ~ pct.a.surf + 
+                      pct.a.base + fines + voids + 
+                      log(viscosity) + run, 
+                    data = asphalt, nbest = 2)
+s &lt;- summary(leaps)
+with(s, data.frame(rsq, outmat)) -&gt; d</code></pre>
+</div>
+<div id="the-output" class="section level2">
+<h2>The output</h2>
+<pre class="r"><code>d %&gt;% rownames_to_column(&quot;model&quot;) %&gt;% arrange(desc(rsq))</code></pre>
+<pre><code>##       model       rsq pct.a.surf pct.a.base fines voids log.viscosity. run
+## 1  6  ( 1 ) 0.9609642          *          *     *     *              *   *
+## 2  5  ( 1 ) 0.9608365          *                *     *              *   *
+## 3  5  ( 2 ) 0.9593265          *          *     *     *              *    
+## 4  4  ( 1 ) 0.9591996          *                      *              *   *
+## 5  4  ( 2 ) 0.9589206          *                *     *              *    
+## 6  3  ( 1 ) 0.9578631          *                      *              *    
+## 7  3  ( 2 ) 0.9534561          *                *                    *    
+## 8  2  ( 1 ) 0.9508647          *                                     *    
+## 9  2  ( 2 ) 0.9479541                                 *              *    
+## 10 1  ( 1 ) 0.9452562                                                *    
+## 11 1  ( 2 ) 0.8624107                                                    *</code></pre>
+</div>
+<div id="comments-3" class="section level2">
+<h2>Comments</h2>
+<ul>
+<li>Problem: even adding a worthless x increases R-squared. So try for line where R-squared stops increasing “too much”, eg. top line (just log.viscosity), first 3-variable line (backwards-elimination model). Hard to judge.</li>
+<li>One solution (STAC67): adjusted R-squared, where adding worthless variable makes it go down.</li>
+<li><code>data.frame</code> rather than <code>tibble</code> because there are several columns in <code>outmat</code>.</li>
+</ul>
+</div>
+<div id="all-possible-regressions-adjusted-r-squared" class="section level2">
+<h2>All possible regressions, adjusted R-squared</h2>
+<pre class="r"><code>with(s, data.frame(adjr2, outmat)) %&gt;% 
+  rownames_to_column(&quot;model&quot;) %&gt;% 
+  arrange(desc(adjr2))</code></pre>
+<pre><code>##       model     adjr2 pct.a.surf pct.a.base fines voids log.viscosity. run
+## 1  3  ( 1 ) 0.9531812          *                      *              *    
+## 2  5  ( 1 ) 0.9530038          *                *     *              *   *
+## 3  4  ( 1 ) 0.9529226          *                      *              *   *
+## 4  4  ( 2 ) 0.9526007          *                *     *              *    
+## 5  6  ( 1 ) 0.9512052          *          *     *     *              *   *
+## 6  5  ( 2 ) 0.9511918          *          *     *     *              *    
+## 7  3  ( 2 ) 0.9482845          *                *                    *    
+## 8  2  ( 1 ) 0.9473550          *                                     *    
+## 9  2  ( 2 ) 0.9442365                                 *              *    
+## 10 1  ( 1 ) 0.9433685                                                *    
+## 11 1  ( 2 ) 0.8576662                                                    *</code></pre>
+</div>
+<div id="revisiting-the-best-model" class="section level2">
+<h2>Revisiting the best model</h2>
+<ul>
+<li>Best model was our rut.6:</li>
+</ul>
+<pre class="r"><code>tidy(rut.6)</code></pre>
+<pre><code>## # A tibble: 4 x 5
+##   term         estimate std.error statistic  p.value
+##   &lt;chr&gt;           &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
+## 1 (Intercept)    -1.02     1.36      -0.748 4.61e- 1
+## 2 pct.a.surf      0.555    0.220      2.52  1.80e- 2
+## 3 voids           0.245    0.116      2.12  4.36e- 2
+## 4 log(viscosi…   -0.646    0.0288   -22.5   5.29e-19</code></pre>
+</div>
+<div id="revisiting-2" class="section level2">
+<h2>Revisiting (2)</h2>
+<ul>
+<li>Regression slopes say that rut depth increases as log-viscosity decreases, <code>pct.a.surf</code> increases and <code>voids</code> increases. This more or less checks out with out scatterplots against <code>log.viscosity</code>.</li>
+<li>We should check residual plots again, though previous scatterplots say it’s unlikely that there will be a problem:</li>
+</ul>
+<pre class="r"><code>g &lt;- ggplot(rut.6, aes(y = .resid, x = .fitted)) + 
+geom_point()</code></pre>
+</div>
+<div id="residuals-against-fitted-values" class="section level2">
+<h2>Residuals against fitted values</h2>
+<pre class="r"><code>g</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-42-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="plotting-residuals-against-xs" class="section level2">
+<h2>Plotting residuals against x’s</h2>
+<ul>
+<li>Do our trick again to put them all on one plot:</li>
+</ul>
+<pre class="r"><code>augment(rut.6, asphalt) %&gt;%
+  mutate(log_vis=log(viscosity)) %&gt;% 
+  pivot_longer(
+    c(pct.a.surf:voids, run, log_vis),
+    names_to=&quot;xname&quot;, values_to=&quot;x&quot;,
+  ) %&gt;%
+  ggplot(aes(y = .resid, x = x)) + geom_point() +
+  facet_wrap(~xname, scales = &quot;free&quot;) -&gt; g2</code></pre>
+</div>
+<div id="residuals-against-the-xs" class="section level2">
+<h2>Residuals against the x’s</h2>
+<pre class="r"><code>g2</code></pre>
+<embed src="asphalt_slides_files/figure-html/unnamed-chunk-44-1.pdf" width="672" type="application/pdf" />
+</div>
+<div id="comments-4" class="section level2">
+<h2>Comments</h2>
+<ul>
+<li>None of the plots show any sort of pattern. The points all look random on each plot.</li>
+<li>On the plot of fitted values (and on the one of log.viscosity), the points seem to form a “left half” and a “right half” with a gap in the middle. This is not a concern.</li>
+<li>One of the pct.a.surf values is low outlier (4), shows up top left of that plot.</li>
+<li>Only two possible values of run; the points in each group look randomly scattered around 0, with equal spreads.</li>
+<li>Residuals seem to go above zero further than below, suggesting a mild non-normality, but not enough to be a problem.</li>
+</ul>
+</div>
+<div id="variable-selection-strategies" class="section level2">
+<h2>Variable-selection strategies</h2>
+<ul>
+<li>Expert knowledge.</li>
+<li>Backward elimination.</li>
+<li>All possible regressions.</li>
+<li>Taking a variety of models to experts and asking their opinion.</li>
+<li>Use a looser cutoff to eliminate variables in backward elimination (eg. only if P-value greater than 0.20).</li>
+<li>If goal is prediction, eliminating worthless variables less important.</li>
+<li>If goal is understanding, want to eliminate worthless variables where possible.</li>
+<li>Results of variable selection not always reproducible, so caution advised.</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -8,15 +8,11 @@ navbar:
     - text: "Lecture notes"
       menu:
         - text: "R lecture notes"
-          href: "slides_c32.pdf"
+          href: "notes.html"
         - text: "SAS lecture notes"
           href: "slides-sas.pdf"
-    - text: "Lecture code"
-      menu:
-        - text: "R"
-          href: R-code.html
-        - text: "SAS"
-          href: sas_lecture_code.txt
+    - text: "Lecture code (fill in later)"
+      href: code.html
     - text: "Quercus"
       href: http://q.utoronto.ca
     - text: "PASIAS"
