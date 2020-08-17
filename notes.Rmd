@@ -1,7 +1,4 @@
 # Lecture notes
----
-title: "Lecture notes"
----
 
 # The slides
 
