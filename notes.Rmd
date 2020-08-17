@@ -4,7 +4,7 @@
 
 - [All the slides](c32_all_slides.pdf)
 - By video:
-  - [Course outline](outline_c32_slides.pdf) Not yet updated for Fall 2020.
+  - [Course outline](outline_c32_slides.pdf) Updated for Fall 2020.
   - [Running R](running_R_slides.pdf)
   - [Reading data files](readfile_R_slides.pdf)
   - [Making graphs](graphs_R_slides.pdf)
