@@ -16,6 +16,17 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-04 15:15: I met with my TAs this morning, and I think we have hashed out a system for tutorials:
+  - these will be on Zoom. I will publicize the address later.
+  - join the main room with your sound and (if you prefer) video off.
+  - if you have a question, "raise your hand" in Zoom (click Participants, and look for it at the bottom. If you don't see it, use one of the others). One of us will invite you to a breakout room to discuss your question. If it is a computer-related question, it might help to share your screen; you can do this without having video enabled.
+  - you can also use the chat if you like; we will be keeping an eye on that, but it may take a minute to get to a chat question.
+  - the first tutorial will get you started with R and R Studio via `rstudio.cloud`. The problems you'll be doing are [here](http://ritsokiguess.site/STAC32/a0.pdf); you can take a look ahead of time if you like, but this will probably make more sense after Lecture 1 (next Tuesday). **The first tutorial is in week 1**, on September 9.
+
+- 2020-09-04 15:00: I somehow forgot to mention [PASIAS](http://ritsokiguess.site/pasias/), a collection of Problems and Solutions in Applied Statistics, with answers (and additional comment). I will suggest some problems from here to work through in later tutorials. (The first tutorial is different. I'll get to that in a minute.)
+
+- 2020-09-04 13:10: I made [a video](https://q.utoronto.ca/courses/163918/pages/week-1?module_item_id=1628880) in which I add a bit more to [the course outline](http://ritsokiguess.site/STAC32/outline_c32_slides.pdf), including some more of my reasons for things. You might need to log in to see the video if you use the direct link. By way of organization, I made a [Module](https://q.utoronto.ca/courses/163918/modules) in [Quercus](http://q.utoronto.ca) to hold all the videos, and within that there is a Page for every week. The actual lectures, the ones that talk about the course material, will be numbered from 1 to 24 and I will include what they are about in the video title, so that you can find what you are looking for. The video I made yesterday is really a preamble to the course, so I called it Lecture 0.
+
 - 2020-08-17 16:15: I have been spending the summer trying to work out how to run this course online. I think I finally have something I'm happy with. Details, and my reasons for them, are in [the course outline](http://ritsokiguess.site/STAC32/outline_c32_slides.pdf). Highlights:
   - 2 hours of recorded (by me) lectures per week, watch when you like.
   - 1.5 hours of real-time tutorial per week (on Zoom), where you can work through problems and ask questions with the TAs and myself available to help.
