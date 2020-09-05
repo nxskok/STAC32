@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>outline_c32.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STAC32</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lecture notes
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="notes.html">R lecture notes</a>
+    </li>
+    <li>
+      <a href="slides-sas.pdf">SAS lecture notes</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Lecture code
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R-code.html">R code</a>
+    </li>
+    <li>
+      <a href="SAS-code.html">SAS code</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="http://q.utoronto.ca">Quercus</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/pasias">PASIAS</a>
+</li>
+<li>
+  <a href="pasi-sas.pdf">PASI-SAS</a>
+</li>
+<li>
+  <a href="old_exams.html">Old exams</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home/courses.html">Ken's other courses</a>
+</li>
+<li>
+  <a href="http://ritsokiguess.site/home">Ken Butler home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="this-course" class="section level2">
+<h2>This course</h2>
+<ul>
+<li>STAC32, Applications of Statistical Methods</li>
+<li>Online:
+<ul>
+<li>2 hours of recorded lectures / week, asynchronous (watch when you like)</li>
+<li>1.5 hours of live tutorial / week, Wednesday 2:00 or 3:30, on Zoom</li>
+<li>“office hours” also on Zoom, by appointment</li>
+</ul></li>
+<li>Instructor:
+<ul>
+<li>Ken Butler, <code>ken.butler@utoronto.ca</code></li>
+<li>I like sharing what I know about applied statistics, particularly with people who are not primarily statisticians</li>
+<li>This course will help you develop the skills to use software to analyze data, and to communicate the results.</li>
+<li>Effective communication of results is key, since in applied work you are always trying to convince someone of what you found</li>
+<li>I want you to demonstrate your understanding and insight about the data you’re working with</li>
+<li>I will help you to work towards this.</li>
+</ul></li>
+</ul>
+</div>
+<div id="programs-and-prerequisites" class="section level2">
+<h2>Programs and Prerequisites</h2>
+<ul>
+<li><p>This course <em>only</em> offers credit for the Statistics Applied Minor program. If you are in the Statistics Major, Minor or Specialist programs, or the Math Specialist (Statistics), you should instead take STAC33, offered in Winter.</p></li>
+<li><p>To take this course, you need one of these courses as preparation:</p>
+<ul>
+<li>STAB27 / STA221</li>
+<li>PSYC08 / PSY202</li>
+<li>MGEB12</li>
+</ul></li>
+<li><p>STAB57 is <em>not</em> suitable preparation for this course. If you have that, you should take STAC33.</p></li>
+<li><p>Note that you may not combine the Applied Minor Program in Statistics with any other Statistics, Mathematics or Computer Science program.</p></li>
+<li><p>I check prerequisites.</p></li>
+</ul>
+</div>
+<div id="stac53" class="section level2">
+<h2>STAC53</h2>
+<ul>
+<li>Check your Degree Explorer.</li>
+<li>This might have STAC50 as a requirement (for which you don’t now have the prereq)</li>
+<li>If you have not already taken C50, you need to take <em>STAC53</em>.</li>
+<li>To get this reflected in your Degree Explorer: email (instructions below)
+<ul>
+<li>with your name and student number</li>
+<li>and explaining that you would like me to make this change.</li>
+</ul></li>
+</ul>
+</div>
+<div id="getting-help" class="section level2">
+<h2>Getting help</h2>
+<ul>
+<li>Option 1: come to tutorial and ask the TAs or me.</li>
+<li>Option 2: Quercus discussion boards:
+<ul>
+<li>First: look at the Quercus discussion board (Forum 2). Your question might have an answer there.</li>
+<li>If you see a question there that you can answer, go ahead and answer it.</li>
+<li>If you don’t see an answer to your question, post your question on Forum 2.</li>
+<li>If you don’t get an answer to your question (from me or anyone else) in Forum 2, post it to Forum 3 and I will answer.</li>
+<li>For an issue that is more personal, email me (below).</li>
+</ul></li>
+<li>Option 3: I am also willing to meet at other times on Zoom if you want to chat. I will set up a mechanism for you to make an appointment.</li>
+</ul>
+</div>
+<div id="e-mail" class="section level2">
+<h2>E-mail</h2>
+<ul>
+<li>Use a U of T email (so that I know who you are)</li>
+<li>Use a suitable subject, eg “STAC32” or “Applied Minor Program”</li>
+<li>Begin with “Dear Dr Butler”</li>
+<li>State <em>clearly</em> how I can help you. (The quicker I can figure this out, the better your chances of a quick reply.)</li>
+<li>Include your name (as U of T knows it) <em>and</em> student number</li>
+<li>I aim to reply within one working day.</li>
+</ul>
+</div>
+<div id="course-objectives" class="section level2">
+<h2>Course objectives</h2>
+<ul>
+<li>You will learn how to use software to analyze data, and to communicate what you found.</li>
+<li>This will be assessed through assignments (approximately weekly) and a final project.
+<ul>
+<li>Some questions will ask for software output, and some for explanation.</li>
+<li>The grading will reward evidence of clear understanding and insight.</li>
+</ul></li>
+<li>Along the way you will learn how to use R Notebooks and how to turn these into reports.</li>
+</ul>
+</div>
+<div id="course-materials" class="section level2">
+<h2>Course materials</h2>
+<p>The blue things are all links:</p>
+<ul>
+<li><a href="https://q.utoronto.ca/">Quercus</a>: lecture videos, hand in assignments/projects, receive grades.</li>
+<li><a href="http://ritsokiguess.site/STAC32/">Course website</a>: course news, reminders, lecture notes and code, assignment solutions, other stuff I want to share with you</li>
+<li><a href="https://www.viceprovoststudents.utoronto.ca/covid-19/tech-requirements-online-learning/">Computer requirements</a>
+<ul>
+<li>to get the most out of tutorials, you will want a working camera and microphone</li>
+<li>can use <code>rstudio.cloud</code> (needs only web browser) or install R and R Studio on your computer</li>
+</ul></li>
+<li><a href="https://r4ds.had.co.nz/">Reference: R for Data Science</a></li>
+</ul>
+</div>
+<div id="assessment" class="section level2">
+<h2>Assessment</h2>
+<ul>
+<li>Assignments: 10 total, due in weeks 2 through 10 and in the final exam period. Best 8 count, total 80% (10% each).</li>
+<li>Project: can be done in groups (chosen by you) of up to 5 people. Due the last day of classes. Worth 20%.</li>
+</ul>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading</h2>
+<ul>
+<li>Assignments and projects will be graded out of 10 on this scale:
+<ul>
+<li>6/10 or less: Falls short of expectations for this course, with serious errors in coding or absent or deficient explanations.</li>
+<li>7/10: As expected in this course. May be small coding errors or misconceptions.</li>
+<li>8/10: Good work, no obvious coding errors, mostly accurate explanations.</li>
+<li>9/10: Excellent work, showing clear understanding throughout.</li>
+<li>10/10 (rare): Excellent work that shows additional insight.</li>
+</ul></li>
+<li>Graders will also give feedback on how you can improve for the next assignment.</li>
+<li>Grades are the grader’s best assessment of the quality of the work, and are unlikely to change on appeal.</li>
+<li>My (detailed) solutions will be available after each assignment is handed in.</li>
+</ul>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<ul>
+<li>I do not generally accept late work, because I will want to post my solutions for everyone to learn from.</li>
+<li>I am willing to be a little flexible (say, a few minutes), but work that is handed in after my solutions have been posted will definitely not be graded.</li>
+<li>You have two “free” assignments (since only the best 8 count); you may miss these without explanation. If circumstances make it impossible to hand in work beyond that, email me and we’ll see what we can work out.</li>
+<li>There are no make-up assessments.</li>
+<li>Things may change during the semester. I reserve the right to make changes to this course outline as we proceed, including taking class votes if needed.</li>
+</ul>
+</div>
+<div id="course-material" class="section level2">
+<h2>Course material</h2>
+<p>In R:</p>
+<ul>
+<li>Installation / connection</li>
+<li>Reading data files (of different sorts)</li>
+<li>Making graphs</li>
+<li>Numerical summaries</li>
+<li>Statistical inference</li>
+<li>Reports</li>
+<li>Tidying and organizing data</li>
+<li>Case studies</li>
+<li>Functions</li>
+<li>Dates and times</li>
+<li>Miscellaneous tasks</li>
+</ul>
+<p>If time permits, we will also do some of this in SAS.</p>
+</div>
+<div id="accessibility-statement" class="section level2">
+<h2>Accessibility statement</h2>
+<blockquote>
+<p>Students with diverse learning styles and needs are welcome in this course. In particular, if you have a disability/health consideration that may require accommodations, please feel free to approach me and/or the AccessAbility Services Office as soon as possible. I will work with you and AccessAbility Services to ensure you can achieve your learning goals in this course. Enquiries are confiden- tial. The UTSC AccessAbility Services staff (located in S302) are available by appointment to assess specific needs, provide referrals and arrange appropriate accommodations: (416) 287-7560 or by e-mail at <code>ability@utsc.utoronto.ca</code>.</p>
+</blockquote>
+</div>
+<div id="expectations-13" class="section level2">
+<h2>Expectations 1/3</h2>
+<ul>
+<li>I expect that you will do your own work in this course, and not seek help from outside this course. (In the case of the project, that you will not seek help from anyone outside of your group, except possibly the TAs and me.)</li>
+<li>All the ideas you need to succeed in this course are contained in the lecture notes, with a few exceptions that I will tell you about. Seeking help from outside the course may confuse you more than it helps.</li>
+</ul>
+</div>
+<div id="expectations-23" class="section level2">
+<h2>Expectations 2/3</h2>
+<ul>
+<li>You may freely use anything that you learn from the lecture notes, PASIAS, solutions to previous assignments, or from conversation with the TAs or me.</li>
+<li>Anything else, for example, material you find on the Internet, <strong>must be cited</strong>. You can do this by giving the URL that it came from, for example “according to <code>https://r4ds.had.co.nz/data-import.html</code>”, and then say whatever it is you learned from there.</li>
+<li>If you want credit for any ideas that come from outside the course materials, you must say where they came from.</li>
+<li>Citation is a way of making sure that people get credit for ideas that are theirs; not citing when you should is a way of erasing someone’s point of view.</li>
+</ul>
+</div>
+<div id="expectations-33" class="section level2">
+<h2>Expectations 3/3</h2>
+<ul>
+<li>I expect you to learn how to do things <em>as they are done in this course</em>. You will also make STAD29 much easier if you do that.</li>
+<li>If you tell me you’re having trouble, I will not judge you or think less of you. I hope you’ll extend me the same grace. (From <a href="https://econf20.classes.andrewheiss.com/syllabus/">here</a>.)</li>
+<li><a href="https://twitter.com/i/status/1293543531496308736">This (video)</a>.</li>
+<li>I am doing my best to give you an opportunity to learn something that will help you in your future. I would like you to take that opportunity.</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

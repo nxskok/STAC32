@@ -1,19 +1,16 @@
 # Lecture notes
----
-title: "Lecture notes"
----
 
 # The slides
 
 - [All the slides](c32_all_slides.pdf)
 - By video:
-  - [Course outline](outline_c32_slides.pdf) Not yet updated for Fall 2020.
+  - [Course outline](outline_c32_slides.pdf) Updated for Fall 2020.
   - [Running R](running_R_slides.pdf)
   - [Reading data files](readfile_R_slides.pdf)
   - [Making graphs](graphs_R_slides.pdf)
   - [Numerical summaries](numsum_R_slides.pdf) 
   - [Inference 1: 1- and 2-sample t](inference_1_R_slides.pdf)
-  - [The bootstrap for assessing sampling distributions (optional)](bootstrap_R_slides.pdf)
+  - [The bootstrap for assessing sampling distributions (for extra insight)](bootstrap_R_slides.pdf)
   - [Inference 2: power](inference_2_R_slides.pdf)
   - [Inference 3: the sign test](inference_3_R_slides.pdf)
   - [Inference 4: matched pairs, normal quantile plot](inference_4_R_slides.pdf)
