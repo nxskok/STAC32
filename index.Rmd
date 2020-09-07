@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-07 15:00: [Lecture 1](https://play.library.utoronto.ca/70a1db779b23ef973aa39fffa126ec24) is now up.
+
 - 2020-09-05 17:15: weekly plan for you:
   - Monday:
     - (if there was an assignment due Sunday night) read through my solutions to the assignment you just handed in, and read through your graded assignment when you get it back, paying  particular attention to the comments. 
