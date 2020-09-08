@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-08 12:00: I am about to record lecture 2 (that is to say, "Thursday's lecture"). This is about reading files into R. To follow along, the slides are [here](http://ritsokiguess.site/STAC32/readfile_R_slides.pdf) and the R Notebook that I will be running things from is [here](https://raw.githubusercontent.com/nxskok/notes/master/readfile_R.Rmd). To use the latter, open R Studio as per the instructions in Lecture 1, create a new notebook, delete everything except the first four lines, and paste in what you see at the link. I am probably going to add some things to the code; I will put up the revised notebook afterwards, so that you have a record of it.
+
 - 2020-09-07 15:00: [Lecture 1](https://play.library.utoronto.ca/70a1db779b23ef973aa39fffa126ec24) is now up.
 
 - 2020-09-05 17:15: weekly plan for you:
