@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-10 15:00: here is [Lecture 3](https://play.library.utoronto.ca/8b4533c254676c622219ef9ed5be4611), in the unlikely event that you want to watch it yet.
+
 - 2020-09-10 14:20: assignment 1, therefore, due at the end of next week, will cover reading in data and making graphs, from Lectures 2 and 3.  In preparation for that, here are some things from [PASIAS](http://ritsokiguess.site/pasias/) to work on. Ask about any of these in tutorial next week:
   - reading in data from files: problems 3.3 and 3.4 (3.3 will look familiar; skip it if you if you've done it before)
   - making graphs: chapter 4, problems 4.1-4.3
