@@ -353,6 +353,18 @@ $(document).ready(function () {
 <div id="news" class="section level2">
 <h2>News</h2>
 <ul>
+<li><p>2020-09-11 11:00: More of you than I expected are running R Studio on your own computers, which is actually a good thing (just not what I was expecting). There are things to bear in mind, though, that look a little different in the two places:</p>
+<ul>
+<li>on <code>rstudio.cloud</code>, all the files you make (the R Notebook, the HTML/Word/Doc output from Previewing it) are on the cloud, so if you are going to hand any of those in, you need to get them onto your own computer first. This is where the Export stuff comes in. Get the file from <code>rstudio.cloud</code> to your computer first, and then get it from your computer to Quercus, when the time comes. Likewise, if you have a data file on your computer that you want to read into R on <code>rstudio.cloud</code>, you will have to upload it to your filespace there before you can read it in.</li>
+<li>with R Studio on your own computer, all the files are on your own computer, so there is no need for uploading or exporting (and you can ignore all that stuff). The way I recommend is to create a New Project called something like STAC32 (in R Studio), and every time you open R Studio, also open that Project.
+<ul>
+<li>At the top right, you see the name of the project you’re currently in (it might say No Project), and if you click the down arrow next to it, you get a list of your recent projects. So when you open R Studio in the future, you can easily come back to your project for this course.</li>
+</ul>
+A project is associated with a folder, so all the previewed notebook output you create will be in that folder. When it’s time to hand something in on Quercus, the file you need to hand in will be in that folder, and you’ll only need to browse to it on Quercus when you hand it in. Likewise, if you have a data file on your computer, <code>file.choose</code> or something similar will enable you to find it and read its data into R.</li>
+<li>for most of the work on assignments, you will be reading data files from the web and that looks the same whether you’re on your computer or on the cloud. For the HTML or whatever output that you will be handing in, if it’s on the cloud, you will definitely need to get it onto your computer first, because there is no way (that I know of) to get it directly from the cloud to Quercus.</li>
+</ul>
+<p>If you are using <code>rstudio.cloud</code>, one of the options on Preview is pdf output, and that should work from there (and produce output that looks more like my Assignment 0). On your own computer, pdf output will likely not work because you do not have a thing called LaTeX (which is what powers the pdf output). If you want to play with that, the easiest way I know is to install <code>tinytex</code>. Follow the two lines of instructions <a href="https://yihui.org/tinytex/">here</a> under “For R Users” (near the top), in the R Console, and ignore the rest of that website (unless you are very brave). Then getting pdf output should work.</p>
+<p>I have no preference for what you hand in for assignments. The default HTML output that comes out of Preview is perfectly good.</p></li>
 <li><p>2020-09-10 15:00: here is <a href="https://play.library.utoronto.ca/8b4533c254676c622219ef9ed5be4611">Lecture 3</a>, in the unlikely event that you want to watch it yet.</p></li>
 <li><p>2020-09-10 14:20: assignment 1, therefore, due at the end of next week, will cover reading in data and making graphs, from Lectures 2 and 3. In preparation for that, here are some things from <a href="http://ritsokiguess.site/pasias/">PASIAS</a> to work on. Ask about any of these in tutorial next week:</p>
 <ul>
