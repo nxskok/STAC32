@@ -16,6 +16,17 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-13 13:35: For Tutorial 2 (in week 2, next Wednesday), here's what I want you to think about, preferably before you come to the tutorial:
+  
+  - watch Lecture 2 ("last Thursday's lecture") and, in due course, Lecture 3 ("next Tuesday's lecture", but it is up already). Make a note of anything that seems confusing. 
+  - tackle the problems from [PASIAS](http://ritsokiguess.site/pasias/) that I mentioned in the 2020-09-10 14:20 note. For full value (to you), tackle (or at least think about) each part before you look at my solution. Make a note here of any difficulties that you run into. (You might find that these problems help you with your questions from the lecture. Or you might find that there were some things you thought you understood from the lecture that you realize you don't.)
+  - bring any remaining questions to the tutorial. If you want to, you can start/continue working on the problems during tutorial, and ask questions as they come up.
+  - (extra note from me) Working on problems is a much better way to find out how much you really understand, compared to something like reading through your notes. This is generally true (there is research to back it up), but it is particularly important in a course like this, where I will want to see that you can do something sensible with a data set that is new to you.
+
+
+- 2020-09-13 13:30: I just took a quick look through the "Assignment 0" that were handed in. Everyone handed in something I could read; if you did that, you'll have a comment "yep", regardless of what the content was that you handed in. (I didn't really care about what it was, just that there was something and I could read it.) If you are planning to hand in Word output, there is an extra thing you might want to think about (to make your work easier to read), which I'll make a video about later.
+
+
 - 2020-09-11 11:00: More of you than I expected are running R Studio on your own computers, which is actually a good thing (just not what I was expecting). There are things to bear in mind, though, that look a little different in the two places:
 
   - on `rstudio.cloud`, all the files you make (the R Notebook, the HTML/Word/Doc output from Previewing it) are on the cloud, so if you are going to hand any of those in, you need to get them onto your own computer first. This is where the Export stuff comes in. Get the file from `rstudio.cloud` to your computer first, and then get it from your computer to Quercus, when the time comes. Likewise, if you have a data file on your computer that you want to read into R on `rstudio.cloud`, you will have to upload it to your filespace there before you can read it in.
