@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-13 21:30: If you decide to Knit your R Notebook to Word, there are some extra issues to think about. I made a [10-minute video](https://play.library.utoronto.ca/425bcce00cf39d031cd55566dd78e015) illustrating what can happen.
+
 - 2020-09-13 13:35: For Tutorial 2 (in week 2, next Wednesday), here's what I want you to think about, preferably before you come to the tutorial:
   
   - watch Lecture 2 ("last Thursday's lecture") and, in due course, Lecture 3 ("next Tuesday's lecture", but it is up already). Make a note of anything that seems confusing. 
