@@ -353,6 +353,69 @@ $(document).ready(function () {
 <div id="news" class="section level2">
 <h2>News</h2>
 <ul>
+<li><p>2020-09-13 13:35: For Tutorial 2 (in week 2, next Wednesday), here’s what I want you to think about, preferably before you come to the tutorial:</p>
+<ul>
+<li>watch Lecture 2 (“last Thursday’s lecture”) and, in due course, Lecture 3 (“next Tuesday’s lecture”, but it is up already). Make a note of anything that seems confusing.</li>
+<li>tackle the problems from <a href="http://ritsokiguess.site/pasias/">PASIAS</a> that I mentioned in the 2020-09-10 14:20 note. For full value (to you), tackle (or at least think about) each part before you look at my solution. Make a note here of any difficulties that you run into. (You might find that these problems help you with your questions from the lecture. Or you might find that there were some things you thought you understood from the lecture that you realize you don’t.)</li>
+<li>bring any remaining questions to the tutorial. If you want to, you can start/continue working on the problems during tutorial, and ask questions as they come up.</li>
+<li>(extra note from me) Working on problems is a much better way to find out how much you really understand, compared to something like reading through your notes. This is generally true (there is research to back it up), but it is particularly important in a course like this, where I will want to see that you can do something sensible with a data set that is new to you.</li>
+</ul></li>
+<li><p>2020-09-13 13:30: I just took a quick look through the “Assignment 0” that were handed in. Everyone handed in something I could read; if you did that, you’ll have a comment “yep”, regardless of what the content was that you handed in. (I didn’t really care about what it was, just that there was something and I could read it.) If you are planning to hand in Word output, there is an extra thing you might want to think about (to make your work easier to read), which I’ll make a video about later.</p></li>
+<li><p>2020-09-11 11:00: More of you than I expected are running R Studio on your own computers, which is actually a good thing (just not what I was expecting). There are things to bear in mind, though, that look a little different in the two places:</p>
+<ul>
+<li>on <code>rstudio.cloud</code>, all the files you make (the R Notebook, the HTML/Word/Doc output from Previewing it) are on the cloud, so if you are going to hand any of those in, you need to get them onto your own computer first. This is where the Export stuff comes in. Get the file from <code>rstudio.cloud</code> to your computer first, and then get it from your computer to Quercus, when the time comes. Likewise, if you have a data file on your computer that you want to read into R on <code>rstudio.cloud</code>, you will have to upload it to your filespace there before you can read it in.</li>
+<li>with R Studio on your own computer, all the files are on your own computer, so there is no need for uploading or exporting (and you can ignore all that stuff). The way I recommend is to create a New Project called something like STAC32 (in R Studio), and every time you open R Studio, also open that Project.
+<ul>
+<li>At the top right, you see the name of the project you’re currently in (it might say No Project), and if you click the down arrow next to it, you get a list of your recent projects. So when you open R Studio in the future, you can easily come back to your project for this course.</li>
+</ul>
+A project is associated with a folder, so all the previewed notebook output you create will be in that folder. When it’s time to hand something in on Quercus, the file you need to hand in will be in that folder, and you’ll only need to browse to it on Quercus when you hand it in. Likewise, if you have a data file on your computer, <code>file.choose</code> or something similar will enable you to find it and read its data into R.</li>
+<li>for most of the work on assignments, you will be reading data files from the web and that looks the same whether you’re on your computer or on the cloud. For the HTML or whatever output that you will be handing in, if it’s on the cloud, you will definitely need to get it onto your computer first, because there is no way (that I know of) to get it directly from the cloud to Quercus.</li>
+</ul>
+<p>If you are using <code>rstudio.cloud</code>, one of the options on Preview is pdf output, and that should work from there (and produce output that looks more like my Assignment 0). On your own computer, pdf output will likely not work because you do not have a thing called LaTeX (which is what powers the pdf output). If you want to play with that, the easiest way I know is to install <code>tinytex</code>. Follow the two lines of instructions <a href="https://yihui.org/tinytex/">here</a> under “For R Users” (near the top), in the R Console, and ignore the rest of that website (unless you are very brave). Then getting pdf output should work.</p>
+<p>I have no preference for what you hand in for assignments. The default HTML output that comes out of Preview is perfectly good.</p></li>
+<li><p>2020-09-10 15:00: here is <a href="https://play.library.utoronto.ca/8b4533c254676c622219ef9ed5be4611">Lecture 3</a>, in the unlikely event that you want to watch it yet.</p></li>
+<li><p>2020-09-10 14:20: assignment 1, therefore, due at the end of next week, will cover reading in data and making graphs, from Lectures 2 and 3. In preparation for that, here are some things from <a href="http://ritsokiguess.site/pasias/">PASIAS</a> to work on. Ask about any of these in tutorial next week:</p>
+<ul>
+<li>reading in data from files: problems 3.3 and 3.4 (3.3 will look familiar; skip it if you if you’ve done it before)</li>
+<li>making graphs: chapter 4, problems 4.1-4.3</li>
+<li>graphs plus interpretation plus some extra ideas: chapter 5, problems 5.1-5.5</li>
+</ul>
+<p>There is a bit of overlap between what is in Chapter 5 and what is in Lecture 4 (which will be part of Assignment <em>2</em>), so if you run out of time between now and next week, the thing to skim over for now is Chapter 5. But working through it will give you some good preparation for what is coming up.</p>
+<p>If you want to keep up to speed: Assignment <span class="math inline">\(n\)</span> will be on the material in lectures <span class="math inline">\(2n\)</span> and <span class="math inline">\(2n+1\)</span>, at least for the time being.</p></li>
+<li><p>2020-09-10 14:15: I just finished recording lecture 3. I will put it up on <a href="http://q.utoronto.ca">Quercus</a> shortly, though you don’t need to watch it until about Tuesday of next week. There were only 17 slides, but I had a lot extra to say, so you will gain a lot by watching the lecture (as opposed to just reading the slides). R code <a href="https://raw.githubusercontent.com/nxskok/notes/master/graphs_R.Rmd">here</a> and the edited code <a href="https://github.com/nxskok/notes/blob/master/graphs_R_post.Rmd">here</a>.</p></li>
+<li><p>2020-09-09 13:30: today in tutorial, we’ll be working through <a href="http://ritsokiguess.site/STAC32/a0.pdf">this</a>.</p></li>
+<li><p>2020-09-08 15:05: tutorial information for <em>tomorrow</em> is in an Announcement on <a href="https://q.utoronto.ca/courses/163918/discussion_topics/768669">Quercus</a>. I am not publishing things like that here where anybody can see them; that will be on Quercus where only registered students can see.</p></li>
+<li><p>2020-09-08 15:00: the updated R Notebook after Lecture 2 is <a href="https://github.com/nxskok/notes/blob/master/readfile_R_post.Rmd">here</a>. I think the only material change is the bit right at the end. The lecture itself is <a href="https://play.library.utoronto.ca/caba73391ce3c7a038824f5d1b65581d">here</a>. You will probably need to login with your UTorID to see the lecture.</p></li>
+<li><p>2020-09-08 12:00: I am about to record lecture 2 (that is to say, “Thursday’s lecture”). This is about reading files into R. To follow along, the slides are <a href="http://ritsokiguess.site/STAC32/readfile_R_slides.pdf">here</a> and the R Notebook that I will be running things from is <a href="https://raw.githubusercontent.com/nxskok/notes/master/readfile_R.Rmd">here</a>. To use the latter, open R Studio as per the instructions in Lecture 1, create a new notebook, delete everything except the first four lines, and paste in what you see at the link. I am probably going to add some things to the code; I will put up the revised notebook afterwards, so that you have a record of it.</p></li>
+<li><p>2020-09-07 15:00: <a href="https://play.library.utoronto.ca/70a1db779b23ef973aa39fffa126ec24">Lecture 1</a> is now up.</p></li>
+<li><p>2020-09-05 17:15: weekly plan for you:</p>
+<ul>
+<li>Monday:
+<ul>
+<li>(if there was an assignment due Sunday night) read through my solutions to the assignment you just handed in, and read through your graded assignment when you get it back, paying particular attention to the comments.</li>
+</ul></li>
+<li>Tuesday:
+<ul>
+<li>watch Tuesday’s lecture (the odd-numbered one for the week). This should be up by about lunchtime.</li>
+<li>start work on the PASIAS problems from the lecture</li>
+</ul></li>
+<li>Wednesday:
+<ul>
+<li>see where you are having trouble with material from Tuesday’s and last Thursday’s lectures (after week 1), or with the PASIAS problems</li>
+<li>bring these questions to tutorial. Be prepared to share your screen so that we can see where you got to.</li>
+</ul></li>
+<li>Thursday:
+<ul>
+<li>watch Thursday’s lecture, which should be up around lunchtime</li>
+<li>if you have time, start work on the PASIAS problems from the lecture</li>
+</ul></li>
+<li>Friday through Sunday:
+<ul>
+<li>pick a three-hour time-slot to work on the week’s assignment.</li>
+<li>the assignment becomes available on Friday at 00:01, and is due on Sunday at 11:59pm</li>
+<li>once you start the assignment, you have 3 hours to complete it.</li>
+</ul></li>
+</ul></li>
 <li><p>2020-09-04 15:15: I met with my TAs this morning, and I think we have hashed out a system for tutorials:</p>
 <ul>
 <li>these will be on Zoom. I will publicize the address later.</li>
