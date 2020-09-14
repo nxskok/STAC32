@@ -16,6 +16,11 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-14 13:00: 
+  - I recorded [Lecture 4](https://play.library.utoronto.ca/9e0bef17645ac4f1106a232cbe716d75). The best place to watch it from is [the Quercus page](https://q.utoronto.ca/courses/163918/pages/week-2), where there are now also links to the lecture slides and my code files (the ones from before lecture and the final version of the file I edited during lecture), for both weeks 1 and 2.
+
+  - Just so you know, lecture 4 is "Thursday's lecture", and the material in it is on Assignment *2*, so there is no need to watch it until after tutorial this week. 
+
 - 2020-09-13 21:30: If you decide to Knit your R Notebook to Word, there are some extra issues to think about. I made a [10-minute video](https://play.library.utoronto.ca/425bcce00cf39d031cd55566dd78e015) illustrating what can happen.
 
 - 2020-09-13 13:35: For Tutorial 2 (in week 2, next Wednesday), here's what I want you to think about, preferably before you come to the tutorial:
