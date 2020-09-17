@@ -8,13 +8,15 @@ title: "STAC32"
 
 ![bad picture](ken.jpg)
 
-Welcome to the home page for STAC32. This is the place to look for all things course-related (notes, assignments, announcements etc., linked above) except for assignment hand-ins and marks, which will be on [Quercus](http://q.utoronto.ca).
+Welcom-e to the home page for STAC32. This is the place to look for all things course-related (notes, assignments, announcements etc., linked above) except for assignment hand-ins and marks, which will be on [Quercus](http://q.utoronto.ca).
 
 
 This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. Be prepared to show your understanding and insight; this course is about a lot more than "getting the answer".
 In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future. 
 
 ## News
+
+- 2020-09-17 15:45: I just made an extra video. In lecture 5 (which is actually the first one for next week, so you probably haven't watched it yet), I talked about how the $t$-tests and intervals strictly assume a normal distribution of your data, but there is also the Central Limit Theorem, which says that the larger the sample you have,  the less the normality matters in judging whether it's safe to use a $t$-test. So what you have to do is to ask whether your data look normal *enough*, given the sample size. This can be hard to assess. In the extra lecture, which I think will have to be called lecture 5a, I talk about a more advanced way of assessing "normal enough" called the bootstrap, which will make sense to you if you understood that stuff about "sampling distribution of the sample mean" from your first course. The  bootstrap is an idea that will be new to you that looks like magic. The video  will be up, with links to slides and code, once mymedia has finished processing it.
 
 - 2020-09-16 13:20: See yesterday's note to see what you might want to be asking about in today's tutorial. Check the Quercus Announcements for the link to the tutorial zoom meeting. (It's an announcement I made last week and edited just now.)
 
