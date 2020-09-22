@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-22 14:30: Assignment 2 is on lectures 4, 5 (and maybe 5a). So, in preparation for this week's tutorial, watch at least lectures 4 and 5, and work through at least some of chapters 5, 6, and 7 of [PASIAS](http://ritsokiguess.site/pasias/).
+
 - 2020-09-22 14:20: my [solutions to Assignment 1](a1.pdf).
 
 - 2020-09-21 16:00: the first lecture of *next* week (lecture 7 in week 4) is now up. This is another hour-long lecture, so will try to give you less to watch in the rest of week 4. Assignment 3, when it comes around, will be on lectures 6 and 7.
