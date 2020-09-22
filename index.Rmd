@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News
 
+- 2020-09-22 14:20: my [solutions to Assignment 1](a1.pdf).
+
 - 2020-09-21 16:00: the first lecture of *next* week (lecture 7 in week 4) is now up. This is another hour-long lecture, so will try to give you less to watch in the rest of week 4. Assignment 3, when it comes around, will be on lectures 6 and 7.
 
 - 2020-09-18 18:50: I've been recording more videos. Week 3 (that is, next week) is now done. The videos are on [Quercus](https://q.utoronto.ca/courses/163918/pages/week-3). There are three of them; the two lectures plus a bonus extra-insight one. I have also added the appropriate [PASIAS](http://ritsokiguess.site/pasias/) chapters under each one. I realize that I have given you a lot to watch this week, so will aim to keep things under control for week 4. If you want more problems to work on, you can look at the old midterms; these were for writing by hand originally, but you can answer the questions by typing the code into an R Notebook and running it, then seeing that you got the same thing as I did (in my solutions).
