@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News (times are Toronto time):
 
+- 2020-09-25 00:05: Assignment 2 is open. You have three hours to complete it from whenever you start. It is due on Sunday night, 11:59pm, Toronto time (which I think is Monday noon in China).
+
 - 2020-09-23 10:20: 
   - Assignment 1 is being graded. I had forgotten that the right thing to do is to hide the grades from you until everyone's work has been graded, so that some of you may already have seen a grade, and some of you may have seen a blank grade. I have hidden everything again for now. Everyone's work will get graded and will receive comments, and everything will be released together at the end. So no need to worry.
   - I am conscious that I have given you too much to watch. I will be recording "lecture 8", and seeing how long it is. If it is long again, I will either split it into two parts, or call it Lecture 9 and move it to the Tuesday of week 5 (so that in that case there would be no lecture 8). I also find that when I record lectures, I tend to go faster than when I give them in person. I appear to have 16 sections of the notes, which I may subdivide to make something like 24 lectures, or have some of the numbered lectures go missing. In any case, each week's assignment will still be based on the lecture that goes with the Thursday of the previous week and the Tuesday of that week, so that if either of those is missing, the corresponding assignment is based on only one lecture. I will keep the numbering so that assignment $n$ is based on lectures $2n$ and $2n+1$, or whichever of those exist, in the hopes of minimizing confusion.
