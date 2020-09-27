@@ -16,6 +16,8 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News (times are Toronto time):
 
+- 2020-09-27 10:30: The Assignment 1s are graded, and you have your mark. The grades are on the scale shown in [the course outline, page 10](outline_c32_slides.pdf). You have some comments on your work, which you should read together with [my solutions](a1.pdf) to see what kind of work we were expecting. The point is that you need to both have and display understanding; the people that display the best understanding and insight are the ones that get the best marks. If you are unhappy with your mark, read the grader's comments and my solutions to see how you can do better next time.
+
 - 2020-09-25 19:30:
   - The Assignment 1s are still being graded. The grader is working as fast as he can.
   - Today I recorded Lecture 8 (the second one of this week). This came out just over an hour again, and since I promised not to give you too much to watch, I have called this one a combined Lecture 8 and 9, so that Assignment 4 will be on just this lecture. (I thought about splitting this one into two, but there didn't seem to be a good place to do it.)
