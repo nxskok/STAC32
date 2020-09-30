@@ -16,6 +16,22 @@ In real life, people do Statistics to make decisions or inform actions, and you 
 
 ## News (times are Toronto time):
 
+- 2020-09-30 11:35: reminder of tutorial this afternoon. For this week's tutorial, (re-)watch lectures 6 and 7, on power of tests and the sign test, and start working through [PASIAS](http://ritsokiguess.site/pasias/) chapter 8 and problems 9.1-9.3. (The remainder of Chapter 9 is on Mood's median test from lecture 10, so don't worry about those problems yet.)
+
+
+
+- 2020-09-30 11:30: I just recorded Lecture 10, which will be going up on Quercus shortly (after it has finished processing). This is the first half of the fifth part of Inference (are you confused yet?), on Mood's median test, which is likely to be new to you, though the ideas on which it is based are mostly familiar ones. Lecture 11 will be on analysis of variance, which will be familiar to you from your second stats course, though there are some additional things that you will probably have not seen before. This means, looking way ahead, that Assignment 5 will be on the material in these two lectures.
+
+- 2020-09-28 15:00: two things:
+  - my [solutions to Assignment 2](a2.pdf) are up. Study these now, together with the Assignment 2 that you handed in, or later, when you get your graded Assignment 2 back, together with the grader's comments.
+  - for this week's tutorial, (re-)watch lectures 6 and 7, on power of tests and the sign test, and start working through [PASIAS](http://ritsokiguess.site/pasias/) chapter 8 and problems 9.1-9.3. (The remainder of Chapter 9 is on another test that we will see in Lecture 10, so don't worry about those problems yet.)
+
+- 2020-09-27 10:30: The Assignment 1s are graded, and you have your mark. The grades are on the scale shown in [the course outline, page 10](outline_c32_slides.pdf). You have some comments on your work, which you should read together with [my solutions](a1.pdf) to see what kind of work we were expecting. The point is that you need to both have and display understanding; the people that display the best understanding and insight are the ones that get the best marks. If you are unhappy with your mark, read the grader's comments and my solutions to see how you can do better next time.
+
+- 2020-09-25 19:30:
+  - The Assignment 1s are still being graded. The grader is working as fast as he can.
+  - Today I recorded Lecture 8 (the second one of this week). This came out just over an hour again, and since I promised not to give you too much to watch, I have called this one a combined Lecture 8 and 9, so that Assignment 4 will be on just this lecture. (I thought about splitting this one into two, but there didn't seem to be a good place to do it.)
+
 - 2020-09-25 00:05: Assignment 2 is open. You have three hours to complete it from whenever you start. It is due on Sunday night, 11:59pm, Toronto time (which I think is Monday noon in China).
 
 - 2020-09-23 10:20: 
