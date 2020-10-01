@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time):
 
+-   2020-10-01 13:00: The video pages on Quercus now have week numbers and dates on them. For me, week 6 is the week *after* reading week, and we go up to week 12. Thus, week $n$ has lectures $2n-1$ and $2n$ in it.
+
 -   2020-10-01 12:30:
 
     -   I realized that I had forgotten about reading week, which is October 10 through 16. Thanks to the people in tutorial for reminding me.
