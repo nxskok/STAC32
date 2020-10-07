@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time):
 
+- 2020-10-07 15:45: reminder that Assignment 4 opens *Thursday* at 12:01am, so that if you want to get to work early and have more time with your friends/family, you can do that. There are some technicalities with Quercus which mean that I can only give you one attempt (alternatively, I would have to either allow you a lot more time, or confuse you, neither of which I want to do). If you really need a second attempt you can email me with your reasons.
+
 - 2020-10-07 15:20: I am currently working on week 7 of lectures. This will be all about tidying data. During a rather quiet tutorial, I finished putting together an extra lecture showing off some extra-fancy things that can be done. (I *was* keeping an eye on the chat, in case you were wondering.)
 
 - 2020-10-07 10:30: in preparation for tutorial, watch the combined lecture 8/9, and begin working through Chapters 10 and 11 of [PASIAS](http://ritsokiguess.site/pasias/). Bring questions/confusion/discussion to the tutorial. We will be waiting to help you. (Lecture 10 does not appear on assignment 4; that'll be on assignment 5, after reading week.)
