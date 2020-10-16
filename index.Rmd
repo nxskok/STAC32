@@ -14,7 +14,9 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time):
 
-- 2020-10-47 11:00: Hope you are having a pleasant reading week. Reminder: no tutorial today or assignment due this weekend. I am trying to get ahead with lectures and assignments for down the road.
+- 2020-10-15 21:00: [My solutions to Assignment 4](a4.pdf), which I somehow forgot to post earlier this week.
+
+- 2020-10-14 11:00: Hope you are having a pleasant reading week. Reminder: no tutorial today or assignment due this weekend. I am trying to get ahead with lectures and assignments for down the road.
 
 - 2020-10-09 15:30: I am accustomed to using Brave as my web browser, but in there, the lecture videos on Quercus seem to have disappeared. They are there just fine in Chrome, however. So if you are having trouble finding them, try Chrome first, and if you still cannot see them, let me know.
 
