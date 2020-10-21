@@ -14,6 +14,11 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time):
 
+- 2020-10-21 10:30: in preparation for today's tutorial, (re-)watch lectures 10 and 11, and start work on PASIAS problems 9.4-9.6 and chapter 12. To think about:
+  - when would you use Mood's median test, and instead of which test?
+  - what is the value of Tukey's procedure?
+  - when would you use Mood's median test in place of ANOVA?
+
 - 2020-10-20 12:30: Assignment 4 grades will be up shortly. Looking ahead, you might soon get a date for a "final exam" in this course; of course, we have no actual final exam, but I will use that time slot for the last assignment (Assignment 10), which will be about the same amount of work as the other assignments. 
 
 - 2020-10-16 19:10: Assignment 3 has been graded and the grades are up on Quercus. You should see the grader's comments (let me know if not), and read these together with [my solutions](a3.pdf) to see how you can do better next time.
