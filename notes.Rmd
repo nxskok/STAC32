@@ -17,7 +17,7 @@
   - [Inference 5: Mood's median test, analysis of variance](inference_5_R_slides.pdf)
   - [Writing reports](reports_R_slides.pdf)
   - [Tidying data](tidying_R_slides.pdf)
-  - [Tidying and organizing data: extras](tidy_extra_slides.pdf)
+  - [Tidying and organizing data: extras](tidy_extra_R_slides.pdf)
   - [When pivot-wider goes wrong](wider_wrong_slides.pdf)
   - [Choosing rows and columns](choosing_R_slides.pdf)
   - [Case study: the windmill data](windmill_slides.pdf)
