@@ -13,7 +13,7 @@
 
 <title>STAC32</title>
 
-<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -23,8 +23,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -33,7 +31,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -365,6 +363,7 @@ $(document).ready(function () {
 <div id="news-times-are-toronto-time" class="section level2">
 <h2>News (times are Toronto time):</h2>
 <ul>
+<li><p>2020-10-30 15:00: I messed up Assignment 6 on Quercus. If you have already started, please use the assignment that is now labelled Assignment 6 (I deleted the one that was wrong, so you cannot hand that in anyway.) The questions are the same. Sorry for any confusion. (If you have not already started, this won’t affect you. I checked that nobody had already handed in the old version.)</p></li>
 <li><p>2020-10-28 10:20: <a href="a5.pdf">My solutions</a> to Assignment 5.</p></li>
 <li><p>2020-10-27 11:30: in preparation for this week’s assignment (number 6): look at <a href="https://play.library.utoronto.ca/92a27abe1b13d735d06aff66b51f7b1e">lecture 12</a> on writing reports and <a href="https://play.library.utoronto.ca/c56e86a66932aee08dea5706ba749f2f">lecture 13</a> on tidying and organizing data. The lectures are linked here in case you cannot get to them through Quercus. (There is also an extra lecture on tidying and organizing data, number 14, which you are <em>not</em> responsible for this week; that’ll be on Assignment 7). The slides and lecture code are linked on the <a href="https://q.utoronto.ca/courses/163918/modules">Quercus video pages</a>; you should be able to see those links, even if you cannot see the videos there. As for PASIAS, the appropriate pieces are problem 12.4 (report writing) and 13.2-13.7 (tidying data). There are some extras in the chapter 13 problems that will make more sense after you watch Lecture 14; don’t worry about those yet, unless you want to get ahead.</p></li>
 <li><p>2020-10-24 10:15: I’ve had a couple of reports of not being able to access the lecture videos. For me, it currently works all right with Chrome but not with my usual browser Brave. In case it helps, here are direct links to the videos: <a href="https://play.library.utoronto.ca/5c334fafd224ad281624e3f3691602bf">lecture 10</a> and <a href="https://play.library.utoronto.ca/20bb77bfdb8ab6d39fb98528430f500e">lecture 11</a>. This ought to open a player that plays the videos from where they live (it’s called <code>mymedia</code>). You can also download them and play them offline. Right-clicking the links should offer you that as an option.</p></li>
@@ -530,7 +529,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
