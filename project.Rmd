@@ -20,3 +20,5 @@ I have no particular preferences about *how* you cite your sources. As long as i
 A reminder that by submitting your report, you are certifying that it is the work only of the people named on it.
 
 The grading scheme for this project is the same as for the assignments. The project is due at 11:59pm on the last day of classes (December 7, 2020).
+
+todo: make a link to this in the website, and maybe take down the sas stuff.
