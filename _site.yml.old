@@ -5,16 +5,25 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "R lecture notes"
-      href: "notes.html"
-    - text: "R lecture code"
-      href: "R-code.html"
+    - text: "Lecture notes"
+      menu:
+        - text: "R lecture notes"
+          href: "notes.html"
+        - text: "SAS lecture notes"
+          href: "slides-sas.pdf"
+    - text: "Lecture code"
+      menu: 
+        - text: R code
+          href: "R-code.html"
+        - text: SAS code
+          href: "SAS-code.html"
+      href: code.html
     - text: "Quercus"
       href: http://q.utoronto.ca
     - text: "PASIAS"
       href: http://ritsokiguess.site/pasias
-    - text: "Project"
-      href: project.html
+    - text: "PASI-SAS"
+      href: pasi-sas.pdf
     - text: "Old exams"
       href: old_exams.html
     - text: "Ken's other courses"

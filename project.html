@@ -286,35 +286,11 @@ $(document).ready(function () {
         <li>
   <a href="index.html">Home</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Lecture notes
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="notes.html">R lecture notes</a>
-    </li>
-    <li>
-      <a href="slides-sas.pdf">SAS lecture notes</a>
-    </li>
-  </ul>
+<li>
+  <a href="notes.html">R lecture notes</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Lecture code
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="R-code.html">R code</a>
-    </li>
-    <li>
-      <a href="SAS-code.html">SAS code</a>
-    </li>
-  </ul>
+<li>
+  <a href="R-code.html">R lecture code</a>
 </li>
 <li>
   <a href="http://q.utoronto.ca">Quercus</a>
@@ -323,7 +299,7 @@ $(document).ready(function () {
   <a href="http://ritsokiguess.site/pasias">PASIAS</a>
 </li>
 <li>
-  <a href="pasi-sas.pdf">PASI-SAS</a>
+  <a href="project.html">Project</a>
 </li>
 <li>
   <a href="old_exams.html">Old exams</a>
@@ -350,19 +326,22 @@ $(document).ready(function () {
 </div>
 
 
-<div id="instructions-for-the-stac32-project" class="section level2">
-<h2>Instructions for the STAC32 Project</h2>
+<div id="data-analysis-project" class="section level1">
+<h1>Data Analysis Project</h1>
+<div id="instructions" class="section level2">
+<h2>Instructions</h2>
 <p>You may work on this project alone or in a group of up to 5 people. If you don’t have a group to work in, feel free to use Forum 1 of the Discussions to search for colleagues. My suggestion is to find a dataset (see next paragraph) that you like first, and then post in Forum 1 looking for partners to work on that dataset.</p>
-<p>Go to the <a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a> website and scroll down to the table of Datasets. There is one data set per week for three years, so there is plenty of data to choose from. Use data from 2019 or 2018 if you want - click on the year links between the word Datasets and the (2020) datasets themselves. You can pick a dataset whose subject matter appeals to you, or one that you think lends itself to showing off something that you have learned in this course. To get the data, click on the appropriate thing in the Data column, and scroll down to Get the Data Here. There is also (usually) a Data Dictionary that says what each column of each dataframe (there is sometimes more than one) contains.</p>
+<p>Go to the <a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a> website and scroll down to the table of Datasets. There is one data set per week for three years, so there is plenty of data to choose from. Use data from 2019 or 2018 if you want - click on the year links between the word Datasets and the (2020) datasets themselves. You can pick a dataset whose subject matter appeals to you, or one that you think lends itself to showing off something that you have learned in this course. To get the data, click on the appropriate thing in the Data column, and scroll down to Get the Data Here. There is also (usually) a Data Dictionary that says what each column of each dataframe contains. (Sometimes a data set will consist of more than one dataframe, and you might need to combine them to get what you want.)</p>
 <p>Some of the datasets may be more suitable for a project in this course than others. Use your judgement.</p>
-<p>For your chosen dataset, think of an interesting question that you can answer using an inference method that you have learned in this course (for example, <span class="math inline">\(t\)</span>-test, sign test, analysis of variance, regression), and as far as the data permit, answer that question, using appropriate graphs and checking of assumptions to support your analysis. If the dataset is complicated, I would also be interested in something that makes it easier to understand, such as a map, but I expect you to do some research (citing your sources) to figure out what to do if you take this approach.</p>
-<p>Write a report that tells the story of your analysis, including an introduction that describes your chosen dataset, for the benefit of someone who has never seen it before, and states what you are trying to find out. Your report should also have a conclusion that summarizes what you have found. Imagine that you are writing a report that other students in the class will want to read; this is the audience you are aiming for.</p>
-<p>As with anything else here, if you use something from outside this course and the description of your dataset, you <em>must</em> cite it in such a way that I can find it. Failure to do so is <em>plagiarism</em>. (Wouldn’t you want to receive credit for your hard work? Then give that credit to others.) In the dataset descriptions, there might be other links that give some other information or background; if you use information from any of these in your report, <em>cite them</em>.</p>
-<p>Some of the datasets have a “cleaning script”; you may use this, if your dataset has one, but you should in your report explain what it does. If you prefer, you may do your own data cleaning.</p>
+<p>For your chosen dataset, think of an interesting question that you can answer using an inference method that you have learned how to run in this course (for example, <span class="math inline">\(t\)</span>-test, sign test, analysis of variance, regression), and as far as the data permit, answer that question, using appropriate graphs and checking of assumptions to support your analysis. If the dataset is complicated, I would also be interested in something that makes it easier to understand, such as a map, but I expect you to do some research (citing your sources) to figure out what to do if you take this approach.</p>
+<p>Write a report that tells the story of your analysis, including an introduction that describes your chosen dataset, for the benefit of someone who has never seen it before, and states what you are trying to find out. Your report should also have a conclusion that summarizes what you have found. Imagine that you are writing a report that other students in the class will want to read; this is the audience you are aiming for. Include your code somewhere in your report; this can be next to your output, as on the assignments, or you can move it to an appendix of your report if you think that makes it read more smoothly.</p>
+<p>If you use anything from outside this course and the description of your dataset, you <em>must</em> cite it in such a way that I can find it. Failure to do so is <em>plagiarism</em>. (Wouldn’t you want to receive credit for your hard work? Then give that credit to others.) In the dataset descriptions, there might be other links that give some other information or background; if you use information from any of these in your report, <em>cite them</em>.</p>
+<p>Some of the datasets have a “cleaning script”; you may use this, if your dataset has one, but you should in your report explain what it does. If you prefer, you may do any necessary data cleaning or tidying yourself, but you will still need to include your code and an explanation of what it does in your report.</p>
 <p>I don’t know any more about these datasets than what is on the website. You will need to answer your own questions and make your own assumptions about the data.</p>
 <p>I have no particular preferences about <em>how</em> you cite your sources. As long as it is clear where anything from outside this course and the Tidy Tuesday website comes from, I am happy. A reminder that by submitting your report, you are certifying that it is the work only of the people named on it.</p>
-<p>The grading scheme for this project is the same as for the assignments. The project is due at 11:59pm on the last day of classes (December 7, 2020).</p>
-<p>todo: make a link to this in the website, and maybe take down the sas stuff.</p>
+<p>The grading scheme for this project is the same as for the assignments. The best reports will be logically put together and easy to read, making it clear what you are hoping to find out, how you are investigating that and why, and summarizing concisely what you discovered.</p>
+<p>The project is due at 11:59pm on the last day of classes (December 7, 2020) on Quercus. There will be a place to hand it in, in with the Assignments. Your project report should be an HTML, Word <code>docx</code> or PDF file, in the same way that your assignments were.</p>
+</div>
 </div>
 
 
