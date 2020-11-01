@@ -13,7 +13,7 @@
 
 <title>STAC32</title>
 
-<script src="site_libs/header-attrs-2.4/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -23,6 +23,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -31,7 +33,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -360,9 +362,11 @@ $(document).ready(function () {
 <p>Welcome to the home page for STAC32. This is the place to look for all things course-related (notes, assignments, announcements etc., linked above) except for assignment hand-ins and marks, which will be on <a href="http://q.utoronto.ca">Quercus</a>.</p>
 <p>This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean <em>in the context of the data you are working with</em>: that is to say, using your language skills as well as your statistical skills. Be prepared to show your understanding and insight; this course is about a lot more than “getting the answer”. In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future.</p>
 </div>
-<div id="news-times-are-toronto-time" class="section level2">
-<h2>News (times are Toronto time):</h2>
+<div id="news-times-are-toronto-time-now-est-utc---5" class="section level2">
+<h2>News (times are Toronto time, now EST (UTC - 5)):</h2>
 <ul>
+<li><p>2020-11-01 15:00: question 2(c) on the assignment can be done using the ideas in lectures 12 and 13. It’s up to you to figure out how.</p></li>
+<li><p>2020-11-01 11:30: Last night was “fall back” in Toronto, so we have returned to Eastern Standard Time (UTC - 5). If you are somewhere other than Canada, please be aware that due times for assignments, start times for synchronous classes, exams etc. may be an hour different for you compared to last week. For example, Hong Kong is in timezone UTC + 8, and so is now <em>13</em> hours ahead of Toronto. That means than an assignment due at 11:59pm in Toronto will now be due at 12:59pm the next day in Hong Kong. (Be aware that the reverse will happen in Spring and things will suddenly be due an hour <em>earlier</em> starting on March 14, 2021.)</p></li>
 <li><p>2020-10-30 15:00: I messed up Assignment 6 on Quercus. If you have already started, please use the assignment that is now labelled Assignment 6 (I deleted the one that was wrong, so you cannot hand that in anyway.) The questions are the same. Sorry for any confusion. (If you have not already started, this won’t affect you. I checked that nobody had already handed in the old version.)</p></li>
 <li><p>2020-10-28 10:20: <a href="a5.pdf">My solutions</a> to Assignment 5.</p></li>
 <li><p>2020-10-27 11:30: in preparation for this week’s assignment (number 6): look at <a href="https://play.library.utoronto.ca/92a27abe1b13d735d06aff66b51f7b1e">lecture 12</a> on writing reports and <a href="https://play.library.utoronto.ca/c56e86a66932aee08dea5706ba749f2f">lecture 13</a> on tidying and organizing data. The lectures are linked here in case you cannot get to them through Quercus. (There is also an extra lecture on tidying and organizing data, number 14, which you are <em>not</em> responsible for this week; that’ll be on Assignment 7). The slides and lecture code are linked on the <a href="https://q.utoronto.ca/courses/163918/modules">Quercus video pages</a>; you should be able to see those links, even if you cannot see the videos there. As for PASIAS, the appropriate pieces are problem 12.4 (report writing) and 13.2-13.7 (tidying data). There are some extras in the chapter 13 problems that will make more sense after you watch Lecture 14; don’t worry about those yet, unless you want to get ahead.</p></li>
@@ -529,7 +533,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

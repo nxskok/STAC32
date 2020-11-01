@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-01 15:00: question 2(c) on the assignment can be done using the ideas in lectures 12 and 13. It's up to you to figure out how.
+
 - 2020-11-01 11:30: Last night was "fall back" in Toronto, so we have returned to Eastern Standard Time (UTC - 5). If you are somewhere other than Canada, please be aware that due times for assignments, start times for synchronous classes, exams etc. may be an hour different for you compared to last week. For example, Hong Kong is in timezone UTC + 8, and so is now *13* hours ahead of Toronto. That means than an assignment due at 11:59pm in Toronto will now be due at 12:59pm the next day in Hong Kong. (Be aware that the reverse will happen in Spring and things will suddenly be due an hour *earlier* starting on March 14, 2021.)
 
 - 2020-10-30 15:00: I messed up Assignment 6 on Quercus. If you have already started, please use the assignment that is now labelled Assignment 6 (I deleted the one that was wrong, so you cannot hand that in anyway.) The questions are the same. Sorry for any confusion. (If you have not already started, this won't affect you. I checked that nobody had already handed in the old version.)
