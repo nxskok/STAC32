@@ -12,7 +12,7 @@ Welcome to the home page for STAC32. This is the place to look for all things co
 
 This is an applied course. Expect to be describing the process by which you got your answers, and explaining what the answers mean *in the context of the data you are working with*: that is to say, using your language skills as well as your statistical skills. Be prepared to show your understanding and insight; this course is about a lot more than "getting the answer". In real life, people do Statistics to make decisions or inform actions, and you will be expected to play your full part in that process, both in this course and in your statistical future.
 
-## News (times are Toronto time):
+## News (times are Toronto time, now EST (UTC - 5)):
 
 - 2020-11-01 11:30: Last night was "fall back" in Toronto, so we have returned to Eastern Standard Time (UTC - 5). If you are somewhere other than Canada, please be aware that due times for assignments, start times for synchronous classes, exams etc. may be an hour different for you compared to last week. For example, Hong Kong is in timezone UTC + 8, and so is now *13* hours ahead of Toronto. That means than an assignment due at 11:59pm in Toronto will now be due at 12:59pm the next day in Hong Kong. (Be aware that the reverse will happen in Spring and things will suddenly be due an hour *earlier* starting on March 14, 2021.)
 
