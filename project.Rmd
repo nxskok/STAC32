@@ -7,6 +7,8 @@
 
 You may work on this project alone or in a group of up to 5 people. If you don't have a group to work in, feel free to use Forum 1 of the Discussions to search for colleagues. My suggestion is to find a dataset (see next paragraph) that you like first, and then post in Forum 1 looking for partners to work on that dataset.
 
+You are responsible for finding a group to work with, and for dealing with any conflicts within the group.
+
 Go to the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) website and scroll down to the table of Datasets. There is one data set per week for three years, so there is plenty of data to choose from. Use data from 2019 or 2018 if you want - click on the year links between the word Datasets and the (2020) datasets themselves. You can pick a dataset whose subject matter appeals to you, or one that you think lends itself to showing off something that you have learned in this course. To get the data, click on the appropriate thing in the Data column, and scroll down to Get the Data Here. There is also (usually) a Data Dictionary that says what each column of each dataframe contains. (Sometimes a data set will consist of more than one dataframe, and you might need to combine them to get what you want.) 
 
 Some of the datasets may be more suitable for a project in this course than others. Use your judgement.
