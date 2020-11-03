@@ -14,6 +14,12 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-03 14:00: my solutions to [Assignment 6](a6.pdf). You would do well to go through these before you tackle Assignment 7 (which goes up on Friday).
+
+- 2020-11-03 13:45: Looking ahead: Assignment 7, next weekend, is on lectures [14](https://play.library.utoronto.ca/03e288b9fa78cb92281fddab5046c52e), [14a](https://play.library.utoronto.ca/65ce3f9e8b3cdf98e87eb3efd2152ba3), and [15](https://play.library.utoronto.ca/2902b72ca4c610dd0d2f1470368d679b). PASIAS is chapter 13. Bring your questions and confusions to tutorial, or share on the discussion forum 2 on Quercus. I recorded lecture 14a to help you with a specific thing on Assignment 7, realizing that there was a more general issue there that was worth talking about.
+
+     I realize that I could have given you more time on Assignment 6, since there was some stopping and thinking involved. There is something similar on Assignment 7, so I *will* give you more time -- I'm thinking 5 hours, which I don't think you'll need, but I don't want you to run out of time if you can otherwise finish it. I'll give you a heads-up now: question 1 on Assignment 7 will probably require some thinking, and question 2 looks long but should go fast once you get going. With that in mind, you might like to do question 2 on it first to get warmed up.
+     
 - 2020-11-02 09:55: I have slightly reorganized this website. In particular, note:
   - the Project tab, which gives details on the project that you will be doing.
   - I have removed any references to SAS, which we will not be learning.
@@ -30,7 +36,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 - 2020-10-24 10:15: I've had a couple of reports of not being able to access the lecture videos. For me, it currently works all right with Chrome but not with my usual browser Brave. In case it helps, here are direct links to the videos: [lecture 10](https://play.library.utoronto.ca/5c334fafd224ad281624e3f3691602bf) and [lecture 11](https://play.library.utoronto.ca/20bb77bfdb8ab6d39fb98528430f500e). This ought to open a player that plays the videos from where they live (it's called `mymedia`). You can also download them and play them offline. Right-clicking the links should offer you that as an option.
 
-If you want other lectures, let me know, but these should do for this week.
+     If you want other lectures, let me know, but these should do for this week.
 
 - 2020-10-21 10:30: in preparation for today's tutorial, (re-)watch lectures 10 and 11, and start work on PASIAS problems 9.4-9.6 and chapter 12. To think about:
   - when would you use Mood's median test, and instead of which test?
@@ -78,7 +84,7 @@ If you want other lectures, let me know, but these should do for this week.
     -   my [solutions to Assignment 2](a2.pdf) are up. Study these now, together with the Assignment 2 that you handed in, or later, when you get your graded Assignment 2 back, together with the grader's comments.
     -   for this week's tutorial, (re-)watch lectures 6 and 7, on power of tests and the sign test, and start working through [PASIAS](http://ritsokiguess.site/pasias/) chapter 8 and problems 9.1-9.3. (The remainder of Chapter 9 is on another test that we will see in Lecture 10, so don't worry about those problems yet.)
 
--   2020-09-27 10:30: The Assignment 1s are graded, and you have your mark. The grades are on the scale shown in [the course outline, page 10](outline_c32_slides.pdf). You have some comments on your work, which you should read together with [my solutions](a1.pdf) to see what kind of work we were expecting. The point is that you need to both have and display understanding; the people that display the best understanding and insight are the ones that get the best marks. If you are unhappy with your mark, read the grader's comments and my solutions to see how you can do better next time.
+-   2020-09-27 10:30: The Assignment 1s are graded, and you have yourh mark. The grades are on the scale shown in [the course outline, page 10](outline_c32_slides.pdf). You have some comments on your work, which you should read together with [my solutions](a1.pdf) to see what kind of work we were expecting. The point is that you need to both have and display understanding; the people that display the best understanding and insight are the ones that get the best marks. If you are unhappy with your mark, read the grader's comments and my solutions to see how you can do better next time.
 
 -   2020-09-25 19:30:
 
