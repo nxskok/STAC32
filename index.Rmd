@@ -14,11 +14,13 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-04 10:15:
+
 - 2020-11-03 14:00: my solutions to [Assignment 6](a6.pdf). You would do well to go through these before you tackle Assignment 7 (which goes up on Friday).
 
 - 2020-11-03 13:45: Looking ahead: Assignment 7, next weekend, is on lectures [14](https://play.library.utoronto.ca/03e288b9fa78cb92281fddab5046c52e), [14a](https://play.library.utoronto.ca/65ce3f9e8b3cdf98e87eb3efd2152ba3), and [15](https://play.library.utoronto.ca/2902b72ca4c610dd0d2f1470368d679b). PASIAS is chapter 13. Bring your questions and confusions to tutorial, or share on the discussion forum 2 on Quercus. I recorded lecture 14a to help you with a specific thing on Assignment 7, realizing that there was a more general issue there that was worth talking about.
 
-     I realize that I could have given you more time on Assignment 6, since there was some stopping and thinking involved. There is something similar on Assignment 7, so I *will* give you more time -- I'm thinking 5 hours, which I don't think you'll need, but I don't want you to run out of time if you can otherwise finish it. I'll give you a heads-up now: question 1 on Assignment 7 will probably require some thinking, and question 2 looks long but should go fast once you get going. With that in mind, you might like to do question 2 on it first to get warmed up.
+    I realize that I could have given you more time on Assignment 6, since there was some stopping and thinking involved. There is something similar on Assignment 7, so I *will* give you more time -- I'm thinking 5 hours, which I don't think you'll need, but I don't want you to run out of time if you can otherwise finish it. I'll give you a heads-up now: question 1 on Assignment 7 will probably require some thinking, and question 2 looks long but should go fast once you get going. With that in mind, you might like to do question 2 on it first to get warmed up.
      
 - 2020-11-02 09:55: I have slightly reorganized this website. In particular, note:
   - the Project tab, which gives details on the project that you will be doing.
@@ -43,7 +45,9 @@ This is an applied course. Expect to be describing the process by which you got 
   - what is the value of Tukey's procedure?
   - when would you use Mood's median test in place of ANOVA?
 
-- 2020-10-20 12:30: Assignment 4 grades will be up shortly. Looking ahead, you might soon get a date for a "final exam" in this course; of course, we have no actual final exam, but I will use that time slot for the last assignment (Assignment 10), which will be about the same amount of work as the other assignments. 
+- 2020-10-20 12:30: Assignment 4 grades will be up shortly. 
+      
+    Looking ahead, you might soon get a date for a "final exam" in this course; of course, we have no actual final exam, but I will use that time slot for the last assignment (Assignment 10), which will be about the same amount of work as the other assignments. 
 
 - 2020-10-16 19:10: Assignment 3 has been graded and the grades are up on Quercus. You should see the grader's comments (let me know if not), and read these together with [my solutions](a3.pdf) to see how you can do better next time.
 
