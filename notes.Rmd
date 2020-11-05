@@ -24,4 +24,5 @@
   - [Case study: the asphalt data](asphalt_slides.pdf)
   - [Regression with categorical data](with_categ_R_slides.pdf)
   - [Functions](functions_slides.pdf)
+  - [Dates and times](dates_and_times_slides.pdf)
 
