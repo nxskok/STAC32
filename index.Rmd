@@ -14,7 +14,17 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
-- 2020-11-04 10:15:
+- 2020-11-05 22:30: Today I recorded Lecture 20, on regression with categorical variables. There ought to be more on this in PASIAS than there is right now, but so it is. I'll see if I can find something to add. Looking ahead, I still have material on functions (which should come out as two lectures since it is quite involved), and dates and times (one lecture). That will bring us to 23 lectures, which I think is about right.
+
+    Assignment-wise, that means:
+    
+    - #7, Nov 8, lectures 14, 14a, and 15. I'm giving you 5 hours to complete this one. See the second paragraph of my note on 2020-11-03 13:45 for some hints.
+    - #8, Nov 15, lectures 16 and 17
+    - #9, Nov 22, lectures 18 and 19
+    - project due  Dec 7 (Monday) at 11:59pm. I've given you a week or two off assignments to give you time to work on this.
+    - #10, Dec 14, lectures 20 on. (This is our "final exam" timeslot). Assignment 10 will be the same length as the others, but I will give you some extra time to complete it; that is, expect two questions (or maybe three short ones) on some of the material in those last lectures.
+
+- 2020-11-04 10:15: I was going to say something here, but I forget what it was. Something about the tutorial, probably.
 
 - 2020-11-03 14:00: my solutions to [Assignment 6](a6.pdf). You would do well to go through these before you tackle Assignment 7 (which goes up on Friday).
 
