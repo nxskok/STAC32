@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-05 23:15: I see that our TAs are working on Assignments 5 and 6 (one each). I will release the grades when they tell me they've finished, I'm guessing tomorrow.
+
 - 2020-11-05 22:30: Today I recorded Lecture 20, on regression with categorical variables. There ought to be more on this in PASIAS than there is right now, but so it is. I'll see if I can find something to add. Looking ahead, I still have material on functions (which should come out as two lectures since it is quite involved), and dates and times (one lecture). That will bring us to 23 lectures, which I think is about right.
 
     Assignment-wise, that means:
