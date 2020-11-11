@@ -14,7 +14,9 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
-- 2020-11-05 23:15: I see that our TAs are working on Assignments 5 and 6 (one each). I will release the grades when they tell me they've finished, I'm guessing tomorrow.
+- 2020-11-10 11:45: Assignment 8 (due on Sunday) is on Lectures 16 and 17 ("simple" regression with one explanatory variable). There will be one longish but I hope straightforward question. PASIAS problems are 14.4-14.9, 14.11, 14.12. (When I put together Chapter 14, the regression problems got all mixed up, simple and multiple regression together.) This is this week's tutorial material.
+
+- 2020-11-05 23:15: I see that our TAs are working on Assignments 5 and 6 (one each). I will release the grades when they tell me they've finished.
 
 - 2020-11-05 22:30: Today I recorded Lecture 20, on regression with categorical variables. There ought to be more on this in PASIAS than there is right now, but so it is. I'll see if I can find something to add. Looking ahead, I still have material on functions (which should come out as two lectures since it is quite involved), and dates and times (one lecture). That will bring us to 23 lectures, which I think is about right.
 
