@@ -14,6 +14,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-15 22:45: if you are in the Toronto area right now, you are probably listening with some trepidation to the wind blowing. I hope you still have power, especially if you are still working on the assignment. There is a large area of Scarborough without power right now, which I am on the edge of (as I write this, I still have power). If power outages interfere with your completing the assignment, let me know. I hope things will be better once the wind dies down.
+
+- 2020-11-11 23:00: I forgot to post [my assignment 7 solutions](a7.pdf). Sorry for the delay. (The pivoting part worked a lot like the one on assignment 6, but came out differently. There is, as we discovered in tutorial, an annoying difference if you read the data file with `read_delim` rather than the correct `read_table` and otherwise do everything the same.)
+
 - 2020-11-10 11:45: Assignment 8 (due on Sunday) is on Lectures 16 and 17 ("simple" regression with one explanatory variable). There will be one longish but I hope straightforward question. PASIAS problems are 14.4-14.9, 14.11, 14.12. (When I put together Chapter 14, the regression problems got all mixed up, simple and multiple regression together.) This is this week's tutorial material.
 
 - 2020-11-05 23:15: I see that our TAs are working on Assignments 5 and 6 (one each). I will release the grades when they tell me they've finished.
