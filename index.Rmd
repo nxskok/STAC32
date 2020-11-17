@@ -14,6 +14,10 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-17 16:30: Assignment 9 is on lectures 18 and 19, multiple regression. PASIAS is the rest of chapter 14. This is the material for this week's tutorial. Assignment 9 is the last "in-semester" assignment; Assignment 10 will be during the timeslot for our "final exam". There will definitely be a tutorial this week; I am pondering what to do about next week's. If you have preferences on that, let me know.
+
+    I realized that there was one more thing about dates and times that I wanted to show you, so there might eventually be a (short) Lecture 23a. I haven't so far been able to make my interesting example work, so I am still working on that.
+
 - 2020-11-15 22:45: if you are in the Toronto area right now, you are probably listening with some trepidation to the wind blowing. I hope you still have power, especially if you are still working on the assignment. There is a large area of Scarborough without power right now, which I am on the edge of (as I write this, I still have power). If power outages interfere with your completing the assignment, let me know. I hope things will be better once the wind dies down.
 
 - 2020-11-11 23:00: I forgot to post [my assignment 7 solutions](a7.pdf). Sorry for the delay. (The pivoting part worked a lot like the one on assignment 6, but came out differently. There is, as we discovered in tutorial, an annoying difference if you read the data file with `read_delim` rather than the correct `read_table` and otherwise do everything the same.)
