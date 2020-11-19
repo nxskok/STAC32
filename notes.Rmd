@@ -25,4 +25,5 @@
   - [Regression with categorical data](with_categ_R_slides.pdf)
   - [Functions](functions_slides.pdf)
   - [Dates and times](dates_and_times_slides.pdf)
+  - [Durations, intervals and periods](dip_slides.pdf)
 
