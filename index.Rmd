@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-19 11:00: my [solutions](a8.pdf) to Assignment 8.
+
 - 2020-11-17 16:30: Assignment 9 is on lectures 18 and 19, multiple regression. PASIAS is the rest of chapter 14. This is the material for this week's tutorial. Assignment 9 is the last "in-semester" assignment; Assignment 10 will be during the timeslot for our "final exam". There will definitely be a tutorial this week; I am pondering what to do about next week's. If you have preferences on that, let me know.
 
     I realized that there was one more thing about dates and times that I wanted to show you, so there might eventually be a (short) Lecture 23a. I haven't so far been able to make my interesting example work, so I am still working on that.
