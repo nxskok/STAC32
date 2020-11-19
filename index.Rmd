@@ -14,6 +14,13 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-11-19 14:30: All the lectures are now [up](https://q.utoronto.ca/courses/163918/modules), if you want to watch the rest of the way. I tried hard to give you only one lecture to watch in week 12, but I realized there were more things I wanted to tell you about, so there is a lecture 23 and a lecture 23a; you might call it one and a half, or you might call it two lectures. These last two are about dates and times.
+
+    Thus assignment 10, the one in December, will be on some of:
+    - regression with categorical explanatory variables
+    - writing functions
+    - dates and times
+
 - 2020-11-19 11:30: Assignment 9 is up (it will be open tomorrow morning). It is about the same length as Assignment 8, so you have the same 4 hours to complete it. I have tried to arrange things so that you can re-download the file you hand in (to check that it was the right one).
 
 - 2020-11-19 11:00: my [solutions](a8.pdf) to Assignment 8.
