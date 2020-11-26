@@ -14,7 +14,7 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
-- 2020-11-26 16:20: Course evaluations are now open. By filling out a course evaluation with your assessment of the things you liked about this course, and the things you thought could be improved (and how), you can make the course better for next time (very important in these times). You can also influence my annual review next year, in the direction that you think it should be influenced.
+- 2020-11-26 16:20: [Course evaluations](http://uoft.me/openevals) are now open. By filling out a course evaluation with your assessment of the things you liked about this course, and the things you thought could be improved (and how), you can make the course better for next time (very important these days). You can also influence my annual review next year, in the direction that you think it should be influenced.
 
 - 2020-11-24 15:00: my [assignment 9 solutions](a9.pdf).
 
