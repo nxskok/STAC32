@@ -14,7 +14,15 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
-- 2020-12-09 20:55: Let's have "office hours" in the tutorial Zoom meeting on Friday 2:00-4:00pm Toronto time. If you want to meet at some other time, let me know and we'll see what we can work out. The discussion forums on Quercus are also open. Reminder: Assignment 10, on the material in Lectures 20 to 23b, is on Monday Dec 14. I'm opening it up at 6:00pm Toronto time and it will be open until something like 1:00am. You'll have 5 hours to get it finished, though I think you're unlikely to need more than about 3 hours. If you have an accommodation from Accessability, that will probably be extra time at the beginning (ie. you'd be able to start before 6).
+- 2020-12-11 11:45: reminder that I will be in the tutorial zoom meeting from 2-4 this afternoon to discuss the material on assignment 10 or anything else that comes to your mind. Assignment 10 is on lectures 20-23a inclusive, that is:
+
+  - regression with categorical variables ([PASIAS](http://ritsokiguess.site/pasias/) problems 14.10 and 21.7)
+  - functions and `map` ([PASIAS](http://ritsokiguess.site/pasias/) 16.1)
+  - dates and times ([PASIAS](http://ritsokiguess.site/pasias/) chapter 15)
+  
+  I'm trying to get some more projects graded before then.
+
+- 2020-12-09 20:55: Let's have "office hours" in the tutorial Zoom meeting on Friday 2:00-4:00pm Toronto time. If you want to meet at some other time, let me know and we'll see what we can work out. The discussion forums on Quercus are also open. Reminder: Assignment 10, on the material in Lectures 20 to 23a, is on Monday Dec 14. I'm opening it up at 6:00pm Toronto time and it will be open until something like 1:00am. You'll have 5 hours to get it finished, though I think you're unlikely to need more than about 3 hours. If you have an accommodation from Accessability, that will probably be extra time at the beginning (ie. you'd be able to start before 6).
 
 - 2020-12-09 20:50: The project grading is going rather slowly (that's because of me, not the projects, some of which are very good). 
 
