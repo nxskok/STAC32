@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-12-12 20:45: the projects are, as far as I can tell, all graded. Next, I will be copying the marks from the people whose hand-in I marked to the other members of their groups. (Some groups handed in more than one copy of their project, which I didn't need, because I would sometimes see a project that looked kinda familiar, and I'd have to remember whether I had graded it before.) There was an impressive variety of choices of dataset, and not too many repeats, but even when different groups used the same dataset, they tended to approach it in different ways.
+
 - 2020-12-11 11:45: reminder that I will be in the tutorial zoom meeting from 2-4 this afternoon to discuss the material on assignment 10 or anything else that comes to your mind. Assignment 10 is on lectures 20-23a inclusive, that is:
 
   - regression with categorical variables ([PASIAS](http://ritsokiguess.site/pasias/) problems 14.10 and 21.7)
