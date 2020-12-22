@@ -14,6 +14,8 @@ This is an applied course. Expect to be describing the process by which you got 
 
 ## News (times are Toronto time, now EST (UTC - 5)):
 
+- 2020-12-21 20:30: the *real* last one: some of the 0.5s in the grades got rounded down instead of up (as I intended), but this should now have been fixed and you might now have a revised grade with that taken into account (if that affects you).
+
 - 2020-12-21 13:45: last one of the year, I think:
   - you have your course grades. The calculation is as described in 2020-12-19 18:30, with one thing I forgot to mention: I don't give course grades one below a GPA cutoff. For example, 79.5 gets rounded up to 80, but 79 and 78.5 get rounded *down* to 78. The reasoning is, if you want the higher grade, you have to earn it. I always do this, so it is not new for this class.
   - if you think your grade is incorrectly calculated, bearing in mind what I said above, you may petition for a clerical check. (I think this is unlikely, but it may be possible, and if there are any actual errors, you have the right to get them corrected.)
