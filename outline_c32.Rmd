@@ -119,7 +119,7 @@ The blue things are all links:
 ## Policies
 
 -   I do not generally accept late work, because I will want to post my solutions for everyone to learn from.
--   I am willing to be a little flexible (say, a few minutes), but work that is handed in after my solutions have been posted will definitely not be graded.
+-   I am willing to be a little flexible (at my discretion), but work that is handed in after my solutions have been posted will definitely not be graded.
 -   You have two "free" assignments (since only the best 8 count); you may miss these without explanation. If circumstances make it impossible to hand in work beyond that, email me and we'll see what we can work out.
 -   There are no make-up assessments.
 -   Things may change during the semester. I reserve the right to make changes to this course outline as we proceed, including taking class votes if needed.
@@ -139,8 +139,6 @@ In R:
 -   Functions
 -   Dates and times
 -   Miscellaneous tasks
-
-If time permits, we will also do some of this in SAS.
 
 ## Accessibility statement
 
